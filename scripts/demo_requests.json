@@ -1,0 +1,3656 @@
+[
+  {
+    "id": "DEMO_001",
+    "date": "2026-10-12",
+    "slot_id": 1,
+    "expected_strength": 45,
+    "room_type": "CLASSROOM",
+    "required_facilities": [],
+    "department_id": 1,
+    "preferred_block_id": 1,
+    "preferred_floor": 2,
+    "created_at": "2026-10-09T13:51:00",
+    "requester_id": "202301704",
+    "name": "Anjali Reddy",
+    "email": "202301704@college.edu",
+    "purpose": "Marketing Analytics Case Study"
+  },
+  {
+    "id": "DEMO_002",
+    "date": "2026-10-12",
+    "slot_id": 2,
+    "expected_strength": 45,
+    "room_type": "CLASSROOM",
+    "required_facilities": [],
+    "department_id": 1,
+    "preferred_block_id": 1,
+    "preferred_floor": 2,
+    "created_at": "2026-10-09T13:52:00",
+    "requester_id": "202301704",
+    "name": "Anjali Reddy",
+    "email": "202301704@college.edu",
+    "purpose": "Marketing Analytics Case Study (Part 2)"
+  },
+  {
+    "id": "DEMO_003",
+    "date": "2026-10-13",
+    "slot_id": 7,
+    "expected_strength": 70,
+    "room_type": "CLASSROOM",
+    "required_facilities": [
+      "projector"
+    ],
+    "department_id": 5,
+    "preferred_block_id": 3,
+    "preferred_floor": 2,
+    "created_at": "2026-10-09T05:47:00",
+    "requester_id": "202305928",
+    "name": "Rahul Rao",
+    "email": "202305928@college.edu",
+    "purpose": "Pre-placement Aptitude Training"
+  },
+  {
+    "id": "DEMO_004",
+    "date": "2026-10-13",
+    "slot_id": 8,
+    "expected_strength": 70,
+    "room_type": "CLASSROOM",
+    "required_facilities": [
+      "projector"
+    ],
+    "department_id": 5,
+    "preferred_block_id": 3,
+    "preferred_floor": 2,
+    "created_at": "2026-10-09T05:48:00",
+    "requester_id": "202305928",
+    "name": "Rahul Rao",
+    "email": "202305928@college.edu",
+    "purpose": "Pre-placement Aptitude Training (Part 2)"
+  },
+  {
+    "id": "DEMO_005",
+    "date": "2026-10-15",
+    "slot_id": 5,
+    "expected_strength": 60,
+    "room_type": "CLASSROOM",
+    "required_facilities": [],
+    "department_id": 3,
+    "preferred_block_id": 2,
+    "preferred_floor": 3,
+    "created_at": "2026-10-12T22:11:00",
+    "requester_id": "202303199",
+    "name": "Rohan Mehta",
+    "email": "202303199@college.edu",
+    "purpose": "Embedded Systems Practicum"
+  },
+  {
+    "id": "DEMO_006",
+    "date": "2026-10-12",
+    "slot_id": 6,
+    "expected_strength": 70,
+    "room_type": "CLASSROOM",
+    "required_facilities": [],
+    "department_id": 6,
+    "preferred_block_id": 4,
+    "preferred_floor": 2,
+    "created_at": "2026-10-11T14:49:00",
+    "requester_id": "202306949",
+    "name": "Deepa Menon",
+    "email": "202306949@college.edu",
+    "purpose": "Guest Lecture on Quantum Computing"
+  },
+  {
+    "id": "DEMO_007",
+    "date": "2026-10-13",
+    "slot_id": 8,
+    "expected_strength": 50,
+    "room_type": "CLASSROOM",
+    "required_facilities": [
+      "projector",
+      "ac"
+    ],
+    "department_id": 6,
+    "preferred_block_id": 4,
+    "preferred_floor": 1,
+    "created_at": "2026-10-11T22:47:00",
+    "requester_id": "202306987",
+    "name": "Rohan Deshmukh",
+    "email": "202306987@college.edu",
+    "purpose": "Machine Learning Laboratory Session"
+  },
+  {
+    "id": "DEMO_008",
+    "date": "2026-10-14",
+    "slot_id": 4,
+    "expected_strength": 55,
+    "room_type": "CLASSROOM",
+    "required_facilities": [],
+    "department_id": 2,
+    "preferred_block_id": 2,
+    "preferred_floor": 2,
+    "created_at": "2026-10-10T11:48:00",
+    "requester_id": "202302646",
+    "name": "Isha Verma",
+    "email": "202302646@college.edu",
+    "purpose": "Robotics Club Technical Hands-on"
+  },
+  {
+    "id": "DEMO_009",
+    "date": "2026-10-14",
+    "slot_id": 5,
+    "expected_strength": 55,
+    "room_type": "CLASSROOM",
+    "required_facilities": [],
+    "department_id": 2,
+    "preferred_block_id": 2,
+    "preferred_floor": 2,
+    "created_at": "2026-10-10T11:49:00",
+    "requester_id": "202302646",
+    "name": "Isha Verma",
+    "email": "202302646@college.edu",
+    "purpose": "Robotics Club Technical Hands-on (Part 2)"
+  },
+  {
+    "id": "DEMO_010",
+    "date": "2026-10-14",
+    "slot_id": 5,
+    "expected_strength": 30,
+    "room_type": "CLASSROOM",
+    "required_facilities": [
+      "projector"
+    ],
+    "department_id": 6,
+    "preferred_block_id": 4,
+    "preferred_floor": 1,
+    "created_at": "2026-10-13T07:39:00",
+    "requester_id": "202306510",
+    "name": "Ananya Joshi",
+    "email": "202306510@college.edu",
+    "purpose": "Thermodynamics Workshop"
+  },
+  {
+    "id": "DEMO_011",
+    "date": "2026-10-14",
+    "slot_id": 6,
+    "expected_strength": 30,
+    "room_type": "CLASSROOM",
+    "required_facilities": [
+      "projector"
+    ],
+    "department_id": 6,
+    "preferred_block_id": 4,
+    "preferred_floor": 1,
+    "created_at": "2026-10-13T07:40:00",
+    "requester_id": "202306510",
+    "name": "Ananya Joshi",
+    "email": "202306510@college.edu",
+    "purpose": "Thermodynamics Workshop (Part 2)"
+  },
+  {
+    "id": "DEMO_012",
+    "date": "2026-10-14",
+    "slot_id": 5,
+    "expected_strength": 75,
+    "room_type": "CLASSROOM",
+    "required_facilities": [
+      "projector"
+    ],
+    "department_id": 2,
+    "preferred_block_id": 2,
+    "preferred_floor": 2,
+    "created_at": "2026-10-12T13:59:00",
+    "requester_id": "202302352",
+    "name": "Karthik Nair",
+    "email": "202302352@college.edu",
+    "purpose": "Robotics Club Technical Hands-on"
+  },
+  {
+    "id": "DEMO_013",
+    "date": "2026-10-16",
+    "slot_id": 2,
+    "expected_strength": 45,
+    "room_type": "CLASSROOM",
+    "required_facilities": [
+      "projector",
+      "smart_board"
+    ],
+    "department_id": 4,
+    "preferred_block_id": 3,
+    "preferred_floor": 2,
+    "created_at": "2026-10-12T20:08:00",
+    "requester_id": "202304981",
+    "name": "Rohan Patel",
+    "email": "202304981@college.edu",
+    "purpose": "Machine Learning Laboratory Session"
+  },
+  {
+    "id": "DEMO_014",
+    "date": "2026-10-16",
+    "slot_id": 3,
+    "expected_strength": 45,
+    "room_type": "CLASSROOM",
+    "required_facilities": [
+      "projector",
+      "smart_board"
+    ],
+    "department_id": 4,
+    "preferred_block_id": 3,
+    "preferred_floor": 2,
+    "created_at": "2026-10-12T20:09:00",
+    "requester_id": "202304981",
+    "name": "Rohan Patel",
+    "email": "202304981@college.edu",
+    "purpose": "Machine Learning Laboratory Session (Part 2)"
+  },
+  {
+    "id": "DEMO_015",
+    "date": "2026-10-15",
+    "slot_id": 5,
+    "expected_strength": 75,
+    "room_type": "CLASSROOM",
+    "required_facilities": [
+      "projector",
+      "ac"
+    ],
+    "department_id": 5,
+    "preferred_block_id": 3,
+    "preferred_floor": 2,
+    "created_at": "2026-10-12T14:31:00",
+    "requester_id": "202305796",
+    "name": "Deepa Sharma",
+    "email": "202305796@college.edu",
+    "purpose": "Robotics Club Technical Hands-on"
+  },
+  {
+    "id": "DEMO_016",
+    "date": "2026-10-15",
+    "slot_id": 6,
+    "expected_strength": 75,
+    "room_type": "CLASSROOM",
+    "required_facilities": [
+      "projector",
+      "ac"
+    ],
+    "department_id": 5,
+    "preferred_block_id": 3,
+    "preferred_floor": 2,
+    "created_at": "2026-10-12T14:32:00",
+    "requester_id": "202305796",
+    "name": "Deepa Sharma",
+    "email": "202305796@college.edu",
+    "purpose": "Robotics Club Technical Hands-on (Part 2)"
+  },
+  {
+    "id": "DEMO_017",
+    "date": "2026-10-14",
+    "slot_id": 3,
+    "expected_strength": 70,
+    "room_type": "CLASSROOM",
+    "required_facilities": [
+      "projector"
+    ],
+    "department_id": 6,
+    "preferred_block_id": 4,
+    "preferred_floor": 2,
+    "created_at": "2026-10-11T05:18:00",
+    "requester_id": "202306839",
+    "name": "Rahul Sharma",
+    "email": "202306839@college.edu",
+    "purpose": "Student Council Seminar"
+  },
+  {
+    "id": "DEMO_018",
+    "date": "2026-10-12",
+    "slot_id": 1,
+    "expected_strength": 50,
+    "room_type": "LAB",
+    "required_facilities": [
+      "pcs",
+      "projector"
+    ],
+    "department_id": 6,
+    "preferred_block_id": 4,
+    "preferred_floor": 2,
+    "created_at": "2026-10-11T17:46:00",
+    "requester_id": "202306256",
+    "name": "Isha Kulkarni",
+    "email": "202306256@college.edu",
+    "purpose": "Embedded Systems Practicum"
+  },
+  {
+    "id": "DEMO_019",
+    "date": "2026-10-14",
+    "slot_id": 2,
+    "expected_strength": 60,
+    "room_type": "CLASSROOM",
+    "required_facilities": [
+      "projector",
+      "ac"
+    ],
+    "department_id": 4,
+    "preferred_block_id": 3,
+    "preferred_floor": 1,
+    "created_at": "2026-10-08T19:41:00",
+    "requester_id": "202304346",
+    "name": "Divya Patel",
+    "email": "202304346@college.edu",
+    "purpose": "Student Council Seminar"
+  },
+  {
+    "id": "DEMO_020",
+    "date": "2026-10-15",
+    "slot_id": 4,
+    "expected_strength": 75,
+    "room_type": "CLASSROOM",
+    "required_facilities": [
+      "projector"
+    ],
+    "department_id": 1,
+    "preferred_block_id": 1,
+    "preferred_floor": 1,
+    "created_at": "2026-10-12T09:20:00",
+    "requester_id": "202301316",
+    "name": "Karthik Bhat",
+    "email": "202301316@college.edu",
+    "purpose": "Student Council Seminar"
+  },
+  {
+    "id": "DEMO_021",
+    "date": "2026-10-14",
+    "slot_id": 5,
+    "expected_strength": 75,
+    "room_type": "CLASSROOM",
+    "required_facilities": [],
+    "department_id": 4,
+    "preferred_block_id": 3,
+    "preferred_floor": 2,
+    "created_at": "2026-10-09T15:25:00",
+    "requester_id": "202304165",
+    "name": "Divya Deshmukh",
+    "email": "202304165@college.edu",
+    "purpose": "Embedded Systems Practicum"
+  },
+  {
+    "id": "DEMO_022",
+    "date": "2026-10-14",
+    "slot_id": 6,
+    "expected_strength": 75,
+    "room_type": "CLASSROOM",
+    "required_facilities": [],
+    "department_id": 4,
+    "preferred_block_id": 3,
+    "preferred_floor": 2,
+    "created_at": "2026-10-09T15:26:00",
+    "requester_id": "202304165",
+    "name": "Divya Deshmukh",
+    "email": "202304165@college.edu",
+    "purpose": "Embedded Systems Practicum (Part 2)"
+  },
+  {
+    "id": "DEMO_023",
+    "date": "2026-10-16",
+    "slot_id": 2,
+    "expected_strength": 30,
+    "room_type": "CLASSROOM",
+    "required_facilities": [
+      "projector"
+    ],
+    "department_id": 2,
+    "preferred_block_id": 2,
+    "preferred_floor": 1,
+    "created_at": "2026-10-09T22:01:00",
+    "requester_id": "202302980",
+    "name": "Rohan Patel",
+    "email": "202302980@college.edu",
+    "purpose": "Embedded Systems Practicum"
+  },
+  {
+    "id": "DEMO_024",
+    "date": "2026-10-16",
+    "slot_id": 3,
+    "expected_strength": 30,
+    "room_type": "CLASSROOM",
+    "required_facilities": [
+      "projector"
+    ],
+    "department_id": 2,
+    "preferred_block_id": 2,
+    "preferred_floor": 1,
+    "created_at": "2026-10-09T22:02:00",
+    "requester_id": "202302980",
+    "name": "Rohan Patel",
+    "email": "202302980@college.edu",
+    "purpose": "Embedded Systems Practicum (Part 2)"
+  },
+  {
+    "id": "DEMO_025",
+    "date": "2026-10-15",
+    "slot_id": 4,
+    "expected_strength": 75,
+    "room_type": "CLASSROOM",
+    "required_facilities": [
+      "projector"
+    ],
+    "department_id": 2,
+    "preferred_block_id": 2,
+    "preferred_floor": 1,
+    "created_at": "2026-10-10T08:22:00",
+    "requester_id": "202302294",
+    "name": "Priya Bhat",
+    "email": "202302294@college.edu",
+    "purpose": "Machine Learning Laboratory Session"
+  },
+  {
+    "id": "DEMO_026",
+    "date": "2026-10-15",
+    "slot_id": 5,
+    "expected_strength": 75,
+    "room_type": "CLASSROOM",
+    "required_facilities": [
+      "projector"
+    ],
+    "department_id": 2,
+    "preferred_block_id": 2,
+    "preferred_floor": 1,
+    "created_at": "2026-10-10T08:23:00",
+    "requester_id": "202302294",
+    "name": "Priya Bhat",
+    "email": "202302294@college.edu",
+    "purpose": "Machine Learning Laboratory Session (Part 2)"
+  },
+  {
+    "id": "DEMO_027",
+    "date": "2026-10-15",
+    "slot_id": 2,
+    "expected_strength": 30,
+    "room_type": "LAB",
+    "required_facilities": [
+      "lab_equipment"
+    ],
+    "department_id": 4,
+    "preferred_block_id": 3,
+    "preferred_floor": 2,
+    "created_at": "2026-10-09T17:56:00",
+    "requester_id": "202304162",
+    "name": "Anjali Iyer",
+    "email": "202304162@college.edu",
+    "purpose": "Marketing Analytics Case Study"
+  },
+  {
+    "id": "DEMO_028",
+    "date": "2026-10-13",
+    "slot_id": 7,
+    "expected_strength": 45,
+    "room_type": "CLASSROOM",
+    "required_facilities": [
+      "projector",
+      "ac"
+    ],
+    "department_id": 2,
+    "preferred_block_id": 2,
+    "preferred_floor": 2,
+    "created_at": "2026-10-13T05:36:00",
+    "requester_id": "202302995",
+    "name": "Rahul Deshmukh",
+    "email": "202302995@college.edu",
+    "purpose": "Student Council Seminar"
+  },
+  {
+    "id": "DEMO_029",
+    "date": "2026-10-13",
+    "slot_id": 8,
+    "expected_strength": 45,
+    "room_type": "CLASSROOM",
+    "required_facilities": [
+      "projector",
+      "ac"
+    ],
+    "department_id": 2,
+    "preferred_block_id": 2,
+    "preferred_floor": 2,
+    "created_at": "2026-10-13T05:37:00",
+    "requester_id": "202302995",
+    "name": "Rahul Deshmukh",
+    "email": "202302995@college.edu",
+    "purpose": "Student Council Seminar (Part 2)"
+  },
+  {
+    "id": "DEMO_030",
+    "date": "2026-10-16",
+    "slot_id": 7,
+    "expected_strength": 30,
+    "room_type": "CLASSROOM",
+    "required_facilities": [],
+    "department_id": 1,
+    "preferred_block_id": 1,
+    "preferred_floor": 1,
+    "created_at": "2026-10-08T16:00:00",
+    "requester_id": "202301516",
+    "name": "Divya Verma",
+    "email": "202301516@college.edu",
+    "purpose": "Software Engineering Project Review"
+  },
+  {
+    "id": "DEMO_031",
+    "date": "2026-10-13",
+    "slot_id": 8,
+    "expected_strength": 120,
+    "room_type": "SEMINAR_HALL",
+    "required_facilities": [
+      "projector",
+      "sound_system",
+      "mic"
+    ],
+    "department_id": 4,
+    "preferred_block_id": 3,
+    "preferred_floor": 1,
+    "created_at": "2026-10-09T05:08:00",
+    "requester_id": "202304533",
+    "name": "Rahul Menon",
+    "email": "202304533@college.edu",
+    "purpose": "Robotics Club Technical Hands-on"
+  },
+  {
+    "id": "DEMO_032",
+    "date": "2026-10-13",
+    "slot_id": 3,
+    "expected_strength": 80,
+    "room_type": "SEMINAR_HALL",
+    "required_facilities": [
+      "projector",
+      "sound_system",
+      "mic"
+    ],
+    "department_id": 3,
+    "preferred_block_id": 2,
+    "preferred_floor": 2,
+    "created_at": "2026-10-08T15:45:00",
+    "requester_id": "202303158",
+    "name": "Ritu Joshi",
+    "email": "202303158@college.edu",
+    "purpose": "Algorithms & Data Structures Lecture"
+  },
+  {
+    "id": "DEMO_033",
+    "date": "2026-10-16",
+    "slot_id": 1,
+    "expected_strength": 35,
+    "room_type": "CLASSROOM",
+    "required_facilities": [
+      "projector"
+    ],
+    "department_id": 1,
+    "preferred_block_id": 1,
+    "preferred_floor": 1,
+    "created_at": "2026-10-11T20:33:00",
+    "requester_id": "202301683",
+    "name": "Sanjay Iyer",
+    "email": "202301683@college.edu",
+    "purpose": "Fluid Dynamics Problem Solving"
+  },
+  {
+    "id": "DEMO_034",
+    "date": "2026-10-12",
+    "slot_id": 5,
+    "expected_strength": 100,
+    "room_type": "SEMINAR_HALL",
+    "required_facilities": [
+      "projector",
+      "sound_system",
+      "mic"
+    ],
+    "department_id": 4,
+    "preferred_block_id": 3,
+    "preferred_floor": 2,
+    "created_at": "2026-10-10T22:25:00",
+    "requester_id": "202304344",
+    "name": "Anjali Joshi",
+    "email": "202304344@college.edu",
+    "purpose": "Thermodynamics Workshop"
+  },
+  {
+    "id": "DEMO_035",
+    "date": "2026-10-14",
+    "slot_id": 3,
+    "expected_strength": 35,
+    "room_type": "CLASSROOM",
+    "required_facilities": [],
+    "department_id": 1,
+    "preferred_block_id": 1,
+    "preferred_floor": 1,
+    "created_at": "2026-10-08T17:23:00",
+    "requester_id": "202301618",
+    "name": "Deepa Kulkarni",
+    "email": "202301618@college.edu",
+    "purpose": "Thermodynamics Workshop"
+  },
+  {
+    "id": "DEMO_036",
+    "date": "2026-10-14",
+    "slot_id": 4,
+    "expected_strength": 35,
+    "room_type": "CLASSROOM",
+    "required_facilities": [],
+    "department_id": 1,
+    "preferred_block_id": 1,
+    "preferred_floor": 1,
+    "created_at": "2026-10-08T17:24:00",
+    "requester_id": "202301618",
+    "name": "Deepa Kulkarni",
+    "email": "202301618@college.edu",
+    "purpose": "Thermodynamics Workshop (Part 2)"
+  },
+  {
+    "id": "DEMO_037",
+    "date": "2026-10-13",
+    "slot_id": 3,
+    "expected_strength": 55,
+    "room_type": "CLASSROOM",
+    "required_facilities": [],
+    "department_id": 3,
+    "preferred_block_id": 2,
+    "preferred_floor": 3,
+    "created_at": "2026-10-09T20:06:00",
+    "requester_id": "202303779",
+    "name": "Anjali Menon",
+    "email": "202303779@college.edu",
+    "purpose": "Machine Learning Laboratory Session"
+  },
+  {
+    "id": "DEMO_038",
+    "date": "2026-10-12",
+    "slot_id": 1,
+    "expected_strength": 50,
+    "room_type": "CLASSROOM",
+    "required_facilities": [
+      "projector",
+      "ac"
+    ],
+    "department_id": 1,
+    "preferred_block_id": 1,
+    "preferred_floor": 1,
+    "created_at": "2026-10-08T20:36:00",
+    "requester_id": "202301617",
+    "name": "Aditya Rao",
+    "email": "202301617@college.edu",
+    "purpose": "Software Engineering Project Review"
+  },
+  {
+    "id": "DEMO_039",
+    "date": "2026-10-15",
+    "slot_id": 1,
+    "expected_strength": 45,
+    "room_type": "CLASSROOM",
+    "required_facilities": [
+      "projector",
+      "ac"
+    ],
+    "department_id": 3,
+    "preferred_block_id": 2,
+    "preferred_floor": 2,
+    "created_at": "2026-10-08T23:16:00",
+    "requester_id": "202303664",
+    "name": "Pooja Chopra",
+    "email": "202303664@college.edu",
+    "purpose": "Robotics Club Technical Hands-on"
+  },
+  {
+    "id": "DEMO_040",
+    "date": "2026-10-12",
+    "slot_id": 1,
+    "expected_strength": 60,
+    "room_type": "CLASSROOM",
+    "required_facilities": [
+      "projector"
+    ],
+    "department_id": 6,
+    "preferred_block_id": 4,
+    "preferred_floor": 1,
+    "created_at": "2026-10-10T08:51:00",
+    "requester_id": "202306142",
+    "name": "Kavya Nair",
+    "email": "202306142@college.edu",
+    "purpose": "Thermodynamics Workshop"
+  },
+  {
+    "id": "DEMO_041",
+    "date": "2026-10-13",
+    "slot_id": 7,
+    "expected_strength": 60,
+    "room_type": "CLASSROOM",
+    "required_facilities": [
+      "projector",
+      "smart_board"
+    ],
+    "department_id": 6,
+    "preferred_block_id": 4,
+    "preferred_floor": 1,
+    "created_at": "2026-10-12T22:41:00",
+    "requester_id": "202306342",
+    "name": "Isha Nair",
+    "email": "202306342@college.edu",
+    "purpose": "Pre-placement Aptitude Training"
+  },
+  {
+    "id": "DEMO_042",
+    "date": "2026-10-13",
+    "slot_id": 8,
+    "expected_strength": 60,
+    "room_type": "CLASSROOM",
+    "required_facilities": [
+      "projector",
+      "smart_board"
+    ],
+    "department_id": 6,
+    "preferred_block_id": 4,
+    "preferred_floor": 1,
+    "created_at": "2026-10-12T22:42:00",
+    "requester_id": "202306342",
+    "name": "Isha Nair",
+    "email": "202306342@college.edu",
+    "purpose": "Pre-placement Aptitude Training (Part 2)"
+  },
+  {
+    "id": "DEMO_043",
+    "date": "2026-10-13",
+    "slot_id": 2,
+    "expected_strength": 60,
+    "room_type": "CLASSROOM",
+    "required_facilities": [
+      "projector",
+      "smart_board"
+    ],
+    "department_id": 4,
+    "preferred_block_id": 3,
+    "preferred_floor": 1,
+    "created_at": "2026-10-10T12:13:00",
+    "requester_id": "202304373",
+    "name": "Anjali Deshmukh",
+    "email": "202304373@college.edu",
+    "purpose": "Signals & Systems Tutorial"
+  },
+  {
+    "id": "DEMO_044",
+    "date": "2026-10-12",
+    "slot_id": 7,
+    "expected_strength": 75,
+    "room_type": "CLASSROOM",
+    "required_facilities": [
+      "projector",
+      "ac"
+    ],
+    "department_id": 4,
+    "preferred_block_id": 3,
+    "preferred_floor": 1,
+    "created_at": "2026-10-10T04:49:00",
+    "requester_id": "202304328",
+    "name": "Meera Deshmukh",
+    "email": "202304328@college.edu",
+    "purpose": "Algorithms & Data Structures Lecture"
+  },
+  {
+    "id": "DEMO_045",
+    "date": "2026-10-14",
+    "slot_id": 3,
+    "expected_strength": 70,
+    "room_type": "CLASSROOM",
+    "required_facilities": [
+      "projector",
+      "ac"
+    ],
+    "department_id": 1,
+    "preferred_block_id": 1,
+    "preferred_floor": 2,
+    "created_at": "2026-10-08T13:13:00",
+    "requester_id": "202301998",
+    "name": "Aarav Iyer",
+    "email": "202301998@college.edu",
+    "purpose": "Thermodynamics Workshop"
+  },
+  {
+    "id": "DEMO_046",
+    "date": "2026-10-14",
+    "slot_id": 4,
+    "expected_strength": 70,
+    "room_type": "CLASSROOM",
+    "required_facilities": [
+      "projector",
+      "ac"
+    ],
+    "department_id": 1,
+    "preferred_block_id": 1,
+    "preferred_floor": 2,
+    "created_at": "2026-10-08T13:14:00",
+    "requester_id": "202301998",
+    "name": "Aarav Iyer",
+    "email": "202301998@college.edu",
+    "purpose": "Thermodynamics Workshop (Part 2)"
+  },
+  {
+    "id": "DEMO_047",
+    "date": "2026-10-12",
+    "slot_id": 5,
+    "expected_strength": 60,
+    "room_type": "CLASSROOM",
+    "required_facilities": [
+      "projector",
+      "smart_board"
+    ],
+    "department_id": 5,
+    "preferred_block_id": 3,
+    "preferred_floor": 3,
+    "created_at": "2026-10-08T14:03:00",
+    "requester_id": "202305494",
+    "name": "Isha Iyer",
+    "email": "202305494@college.edu",
+    "purpose": "Student Council Seminar"
+  },
+  {
+    "id": "DEMO_048",
+    "date": "2026-10-15",
+    "slot_id": 3,
+    "expected_strength": 35,
+    "room_type": "CLASSROOM",
+    "required_facilities": [
+      "projector",
+      "ac"
+    ],
+    "department_id": 1,
+    "preferred_block_id": 1,
+    "preferred_floor": 1,
+    "created_at": "2026-10-11T05:14:00",
+    "requester_id": "202301779",
+    "name": "Isha Joshi",
+    "email": "202301779@college.edu",
+    "purpose": "Pre-placement Aptitude Training"
+  },
+  {
+    "id": "DEMO_049",
+    "date": "2026-10-15",
+    "slot_id": 4,
+    "expected_strength": 35,
+    "room_type": "CLASSROOM",
+    "required_facilities": [
+      "projector",
+      "ac"
+    ],
+    "department_id": 1,
+    "preferred_block_id": 1,
+    "preferred_floor": 1,
+    "created_at": "2026-10-11T05:15:00",
+    "requester_id": "202301779",
+    "name": "Isha Joshi",
+    "email": "202301779@college.edu",
+    "purpose": "Pre-placement Aptitude Training (Part 2)"
+  },
+  {
+    "id": "DEMO_050",
+    "date": "2026-10-14",
+    "slot_id": 3,
+    "expected_strength": 55,
+    "room_type": "CLASSROOM",
+    "required_facilities": [
+      "projector"
+    ],
+    "department_id": 6,
+    "preferred_block_id": 4,
+    "preferred_floor": 2,
+    "created_at": "2026-10-11T20:02:00",
+    "requester_id": "202306780",
+    "name": "Aditya Bhat",
+    "email": "202306780@college.edu",
+    "purpose": "Marketing Analytics Case Study"
+  },
+  {
+    "id": "DEMO_051",
+    "date": "2026-10-16",
+    "slot_id": 6,
+    "expected_strength": 30,
+    "room_type": "CLASSROOM",
+    "required_facilities": [
+      "projector",
+      "ac"
+    ],
+    "department_id": 3,
+    "preferred_block_id": 2,
+    "preferred_floor": 3,
+    "created_at": "2026-10-10T23:29:00",
+    "requester_id": "202303540",
+    "name": "Meera Kulkarni",
+    "email": "202303540@college.edu",
+    "purpose": "Departmental Faculty Colloquium"
+  },
+  {
+    "id": "DEMO_052",
+    "date": "2026-10-15",
+    "slot_id": 4,
+    "expected_strength": 45,
+    "room_type": "CLASSROOM",
+    "required_facilities": [],
+    "department_id": 4,
+    "preferred_block_id": 3,
+    "preferred_floor": 1,
+    "created_at": "2026-10-12T03:51:00",
+    "requester_id": "202304195",
+    "name": "Meera Joshi",
+    "email": "202304195@college.edu",
+    "purpose": "Pre-placement Aptitude Training"
+  },
+  {
+    "id": "DEMO_053",
+    "date": "2026-10-14",
+    "slot_id": 4,
+    "expected_strength": 30,
+    "room_type": "CLASSROOM",
+    "required_facilities": [
+      "projector"
+    ],
+    "department_id": 2,
+    "preferred_block_id": 2,
+    "preferred_floor": 1,
+    "created_at": "2026-10-12T10:04:00",
+    "requester_id": "202302566",
+    "name": "Priya Reddy",
+    "email": "202302566@college.edu",
+    "purpose": "Marketing Analytics Case Study"
+  },
+  {
+    "id": "DEMO_054",
+    "date": "2026-10-15",
+    "slot_id": 8,
+    "expected_strength": 30,
+    "room_type": "CLASSROOM",
+    "required_facilities": [],
+    "department_id": 4,
+    "preferred_block_id": 3,
+    "preferred_floor": 2,
+    "created_at": "2026-10-08T14:51:00",
+    "requester_id": "202304280",
+    "name": "Kavya Deshmukh",
+    "email": "202304280@college.edu",
+    "purpose": "Departmental Faculty Colloquium"
+  },
+  {
+    "id": "DEMO_055",
+    "date": "2026-10-16",
+    "slot_id": 3,
+    "expected_strength": 75,
+    "room_type": "CLASSROOM",
+    "required_facilities": [
+      "projector",
+      "ac"
+    ],
+    "department_id": 2,
+    "preferred_block_id": 2,
+    "preferred_floor": 1,
+    "created_at": "2026-10-12T13:32:00",
+    "requester_id": "202302950",
+    "name": "Rahul Bhat",
+    "email": "202302950@college.edu",
+    "purpose": "Student Council Seminar"
+  },
+  {
+    "id": "DEMO_056",
+    "date": "2026-10-15",
+    "slot_id": 2,
+    "expected_strength": 40,
+    "room_type": "LAB",
+    "required_facilities": [
+      "lab_equipment"
+    ],
+    "department_id": 4,
+    "preferred_block_id": 3,
+    "preferred_floor": 2,
+    "created_at": "2026-10-12T09:25:00",
+    "requester_id": "202304741",
+    "name": "Nikhil Das",
+    "email": "202304741@college.edu",
+    "purpose": "Fluid Dynamics Problem Solving"
+  },
+  {
+    "id": "DEMO_057",
+    "date": "2026-10-14",
+    "slot_id": 2,
+    "expected_strength": 35,
+    "room_type": "CLASSROOM",
+    "required_facilities": [
+      "projector"
+    ],
+    "department_id": 2,
+    "preferred_block_id": 2,
+    "preferred_floor": 2,
+    "created_at": "2026-10-08T16:46:00",
+    "requester_id": "202302492",
+    "name": "Vikram Deshmukh",
+    "email": "202302492@college.edu",
+    "purpose": "Robotics Club Technical Hands-on"
+  },
+  {
+    "id": "DEMO_058",
+    "date": "2026-10-14",
+    "slot_id": 3,
+    "expected_strength": 35,
+    "room_type": "CLASSROOM",
+    "required_facilities": [
+      "projector"
+    ],
+    "department_id": 2,
+    "preferred_block_id": 2,
+    "preferred_floor": 2,
+    "created_at": "2026-10-08T16:47:00",
+    "requester_id": "202302492",
+    "name": "Vikram Deshmukh",
+    "email": "202302492@college.edu",
+    "purpose": "Robotics Club Technical Hands-on (Part 2)"
+  },
+  {
+    "id": "DEMO_059",
+    "date": "2026-10-15",
+    "slot_id": 1,
+    "expected_strength": 70,
+    "room_type": "CLASSROOM",
+    "required_facilities": [],
+    "department_id": 4,
+    "preferred_block_id": 3,
+    "preferred_floor": 2,
+    "created_at": "2026-10-13T04:58:00",
+    "requester_id": "202304498",
+    "name": "Aditya Bhat",
+    "email": "202304498@college.edu",
+    "purpose": "Student Council Seminar"
+  },
+  {
+    "id": "DEMO_060",
+    "date": "2026-10-16",
+    "slot_id": 4,
+    "expected_strength": 60,
+    "room_type": "CLASSROOM",
+    "required_facilities": [
+      "projector",
+      "ac"
+    ],
+    "department_id": 4,
+    "preferred_block_id": 3,
+    "preferred_floor": 2,
+    "created_at": "2026-10-11T02:39:00",
+    "requester_id": "202304651",
+    "name": "Sanjay Bhat",
+    "email": "202304651@college.edu",
+    "purpose": "Robotics Club Technical Hands-on"
+  },
+  {
+    "id": "DEMO_061",
+    "date": "2026-10-13",
+    "slot_id": 3,
+    "expected_strength": 70,
+    "room_type": "CLASSROOM",
+    "required_facilities": [
+      "projector",
+      "ac"
+    ],
+    "department_id": 3,
+    "preferred_block_id": 2,
+    "preferred_floor": 3,
+    "created_at": "2026-10-11T20:57:00",
+    "requester_id": "202303841",
+    "name": "Anjali Mehta",
+    "email": "202303841@college.edu",
+    "purpose": "Signals & Systems Tutorial"
+  },
+  {
+    "id": "DEMO_062",
+    "date": "2026-10-16",
+    "slot_id": 1,
+    "expected_strength": 30,
+    "room_type": "CLASSROOM",
+    "required_facilities": [],
+    "department_id": 1,
+    "preferred_block_id": 1,
+    "preferred_floor": 2,
+    "created_at": "2026-10-09T19:31:00",
+    "requester_id": "202301238",
+    "name": "Manish Bhat",
+    "email": "202301238@college.edu",
+    "purpose": "Pre-placement Aptitude Training"
+  },
+  {
+    "id": "DEMO_063",
+    "date": "2026-10-15",
+    "slot_id": 1,
+    "expected_strength": 60,
+    "room_type": "CLASSROOM",
+    "required_facilities": [
+      "projector",
+      "smart_board"
+    ],
+    "department_id": 3,
+    "preferred_block_id": 2,
+    "preferred_floor": 2,
+    "created_at": "2026-10-12T14:16:00",
+    "requester_id": "202303358",
+    "name": "Karthik Bhat",
+    "email": "202303358@college.edu",
+    "purpose": "Pre-placement Aptitude Training"
+  },
+  {
+    "id": "DEMO_064",
+    "date": "2026-10-15",
+    "slot_id": 2,
+    "expected_strength": 60,
+    "room_type": "CLASSROOM",
+    "required_facilities": [
+      "projector",
+      "smart_board"
+    ],
+    "department_id": 3,
+    "preferred_block_id": 2,
+    "preferred_floor": 2,
+    "created_at": "2026-10-12T14:17:00",
+    "requester_id": "202303358",
+    "name": "Karthik Bhat",
+    "email": "202303358@college.edu",
+    "purpose": "Pre-placement Aptitude Training (Part 2)"
+  },
+  {
+    "id": "DEMO_065",
+    "date": "2026-10-16",
+    "slot_id": 2,
+    "expected_strength": 35,
+    "room_type": "CLASSROOM",
+    "required_facilities": [],
+    "department_id": 1,
+    "preferred_block_id": 1,
+    "preferred_floor": 2,
+    "created_at": "2026-10-09T16:34:00",
+    "requester_id": "202301304",
+    "name": "Aarav Deshmukh",
+    "email": "202301304@college.edu",
+    "purpose": "Pre-placement Aptitude Training"
+  },
+  {
+    "id": "DEMO_066",
+    "date": "2026-10-16",
+    "slot_id": 3,
+    "expected_strength": 35,
+    "room_type": "CLASSROOM",
+    "required_facilities": [],
+    "department_id": 1,
+    "preferred_block_id": 1,
+    "preferred_floor": 2,
+    "created_at": "2026-10-09T16:35:00",
+    "requester_id": "202301304",
+    "name": "Aarav Deshmukh",
+    "email": "202301304@college.edu",
+    "purpose": "Pre-placement Aptitude Training (Part 2)"
+  },
+  {
+    "id": "DEMO_067",
+    "date": "2026-10-13",
+    "slot_id": 5,
+    "expected_strength": 50,
+    "room_type": "CLASSROOM",
+    "required_facilities": [
+      "projector",
+      "smart_board"
+    ],
+    "department_id": 4,
+    "preferred_block_id": 3,
+    "preferred_floor": 1,
+    "created_at": "2026-10-12T14:07:00",
+    "requester_id": "202304885",
+    "name": "Siddharth Rao",
+    "email": "202304885@college.edu",
+    "purpose": "Embedded Systems Practicum"
+  },
+  {
+    "id": "DEMO_068",
+    "date": "2026-10-13",
+    "slot_id": 6,
+    "expected_strength": 50,
+    "room_type": "CLASSROOM",
+    "required_facilities": [
+      "projector",
+      "smart_board"
+    ],
+    "department_id": 4,
+    "preferred_block_id": 3,
+    "preferred_floor": 1,
+    "created_at": "2026-10-12T14:08:00",
+    "requester_id": "202304885",
+    "name": "Siddharth Rao",
+    "email": "202304885@college.edu",
+    "purpose": "Embedded Systems Practicum (Part 2)"
+  },
+  {
+    "id": "DEMO_069",
+    "date": "2026-10-12",
+    "slot_id": 5,
+    "expected_strength": 30,
+    "room_type": "CLASSROOM",
+    "required_facilities": [
+      "projector",
+      "ac"
+    ],
+    "department_id": 2,
+    "preferred_block_id": 2,
+    "preferred_floor": 2,
+    "created_at": "2026-10-12T06:17:00",
+    "requester_id": "202302506",
+    "name": "Varun Mehta",
+    "email": "202302506@college.edu",
+    "purpose": "Robotics Club Technical Hands-on"
+  },
+  {
+    "id": "DEMO_070",
+    "date": "2026-10-12",
+    "slot_id": 6,
+    "expected_strength": 30,
+    "room_type": "CLASSROOM",
+    "required_facilities": [
+      "projector",
+      "ac"
+    ],
+    "department_id": 2,
+    "preferred_block_id": 2,
+    "preferred_floor": 2,
+    "created_at": "2026-10-12T06:18:00",
+    "requester_id": "202302506",
+    "name": "Varun Mehta",
+    "email": "202302506@college.edu",
+    "purpose": "Robotics Club Technical Hands-on (Part 2)"
+  },
+  {
+    "id": "DEMO_071",
+    "date": "2026-10-13",
+    "slot_id": 6,
+    "expected_strength": 50,
+    "room_type": "LAB",
+    "required_facilities": [
+      "pcs",
+      "projector"
+    ],
+    "department_id": 1,
+    "preferred_block_id": 1,
+    "preferred_floor": 2,
+    "created_at": "2026-10-08T17:24:00",
+    "requester_id": "202301455",
+    "name": "Sneha Patel",
+    "email": "202301455@college.edu",
+    "purpose": "Database Management Systems Lab"
+  },
+  {
+    "id": "DEMO_072",
+    "date": "2026-10-16",
+    "slot_id": 8,
+    "expected_strength": 70,
+    "room_type": "CLASSROOM",
+    "required_facilities": [
+      "projector",
+      "smart_board"
+    ],
+    "department_id": 6,
+    "preferred_block_id": 4,
+    "preferred_floor": 2,
+    "created_at": "2026-10-12T08:34:00",
+    "requester_id": "202306470",
+    "name": "Sneha Bhat",
+    "email": "202306470@college.edu",
+    "purpose": "Guest Lecture on Quantum Computing"
+  },
+  {
+    "id": "DEMO_073",
+    "date": "2026-10-13",
+    "slot_id": 6,
+    "expected_strength": 55,
+    "room_type": "CLASSROOM",
+    "required_facilities": [
+      "projector",
+      "smart_board"
+    ],
+    "department_id": 4,
+    "preferred_block_id": 3,
+    "preferred_floor": 1,
+    "created_at": "2026-10-13T04:17:00",
+    "requester_id": "202304945",
+    "name": "Rahul Bhat",
+    "email": "202304945@college.edu",
+    "purpose": "Robotics Club Technical Hands-on"
+  },
+  {
+    "id": "DEMO_074",
+    "date": "2026-10-13",
+    "slot_id": 6,
+    "expected_strength": 35,
+    "room_type": "LAB",
+    "required_facilities": [
+      "pcs",
+      "projector"
+    ],
+    "department_id": 1,
+    "preferred_block_id": 1,
+    "preferred_floor": 2,
+    "created_at": "2026-10-09T08:49:00",
+    "requester_id": "202301444",
+    "name": "Rahul Mehta",
+    "email": "202301444@college.edu",
+    "purpose": "Algorithms & Data Structures Lecture"
+  },
+  {
+    "id": "DEMO_075",
+    "date": "2026-10-15",
+    "slot_id": 4,
+    "expected_strength": 40,
+    "room_type": "LAB",
+    "required_facilities": [
+      "lab_equipment"
+    ],
+    "department_id": 2,
+    "preferred_block_id": 2,
+    "preferred_floor": 2,
+    "created_at": "2026-10-08T19:41:00",
+    "requester_id": "202302669",
+    "name": "Karthik Rao",
+    "email": "202302669@college.edu",
+    "purpose": "Algorithms & Data Structures Lecture"
+  },
+  {
+    "id": "DEMO_076",
+    "date": "2026-10-13",
+    "slot_id": 3,
+    "expected_strength": 50,
+    "room_type": "CLASSROOM",
+    "required_facilities": [
+      "projector",
+      "smart_board"
+    ],
+    "department_id": 6,
+    "preferred_block_id": 4,
+    "preferred_floor": 2,
+    "created_at": "2026-10-09T14:15:00",
+    "requester_id": "202306558",
+    "name": "Manish Das",
+    "email": "202306558@college.edu",
+    "purpose": "Departmental Faculty Colloquium"
+  },
+  {
+    "id": "DEMO_077",
+    "date": "2026-10-13",
+    "slot_id": 4,
+    "expected_strength": 50,
+    "room_type": "CLASSROOM",
+    "required_facilities": [
+      "projector",
+      "smart_board"
+    ],
+    "department_id": 6,
+    "preferred_block_id": 4,
+    "preferred_floor": 2,
+    "created_at": "2026-10-09T14:16:00",
+    "requester_id": "202306558",
+    "name": "Manish Das",
+    "email": "202306558@college.edu",
+    "purpose": "Departmental Faculty Colloquium (Part 2)"
+  },
+  {
+    "id": "DEMO_078",
+    "date": "2026-10-15",
+    "slot_id": 6,
+    "expected_strength": 60,
+    "room_type": "CLASSROOM",
+    "required_facilities": [
+      "projector",
+      "smart_board"
+    ],
+    "department_id": 6,
+    "preferred_block_id": 4,
+    "preferred_floor": 1,
+    "created_at": "2026-10-12T07:57:00",
+    "requester_id": "202306535",
+    "name": "Deepa Gupta",
+    "email": "202306535@college.edu",
+    "purpose": "Robotics Club Technical Hands-on"
+  },
+  {
+    "id": "DEMO_079",
+    "date": "2026-10-15",
+    "slot_id": 3,
+    "expected_strength": 35,
+    "room_type": "CLASSROOM",
+    "required_facilities": [
+      "projector"
+    ],
+    "department_id": 3,
+    "preferred_block_id": 2,
+    "preferred_floor": 3,
+    "created_at": "2026-10-09T10:09:00",
+    "requester_id": "202303860",
+    "name": "Arjun Iyer",
+    "email": "202303860@college.edu",
+    "purpose": "Database Management Systems Lab"
+  },
+  {
+    "id": "DEMO_080",
+    "date": "2026-10-13",
+    "slot_id": 1,
+    "expected_strength": 55,
+    "room_type": "CLASSROOM",
+    "required_facilities": [],
+    "department_id": 6,
+    "preferred_block_id": 4,
+    "preferred_floor": 2,
+    "created_at": "2026-10-12T08:40:00",
+    "requester_id": "202306332",
+    "name": "Aditya Menon",
+    "email": "202306332@college.edu",
+    "purpose": "Embedded Systems Practicum"
+  },
+  {
+    "id": "DEMO_081",
+    "date": "2026-10-13",
+    "slot_id": 2,
+    "expected_strength": 55,
+    "room_type": "CLASSROOM",
+    "required_facilities": [],
+    "department_id": 6,
+    "preferred_block_id": 4,
+    "preferred_floor": 2,
+    "created_at": "2026-10-12T08:41:00",
+    "requester_id": "202306332",
+    "name": "Aditya Menon",
+    "email": "202306332@college.edu",
+    "purpose": "Embedded Systems Practicum (Part 2)"
+  },
+  {
+    "id": "DEMO_082",
+    "date": "2026-10-16",
+    "slot_id": 2,
+    "expected_strength": 30,
+    "room_type": "CLASSROOM",
+    "required_facilities": [
+      "projector",
+      "ac"
+    ],
+    "department_id": 2,
+    "preferred_block_id": 2,
+    "preferred_floor": 2,
+    "created_at": "2026-10-13T07:09:00",
+    "requester_id": "202302753",
+    "name": "Siddharth Nair",
+    "email": "202302753@college.edu",
+    "purpose": "Pre-placement Aptitude Training"
+  },
+  {
+    "id": "DEMO_083",
+    "date": "2026-10-12",
+    "slot_id": 2,
+    "expected_strength": 75,
+    "room_type": "CLASSROOM",
+    "required_facilities": [
+      "projector",
+      "ac"
+    ],
+    "department_id": 5,
+    "preferred_block_id": 3,
+    "preferred_floor": 3,
+    "created_at": "2026-10-10T14:42:00",
+    "requester_id": "202305358",
+    "name": "Pooja Patel",
+    "email": "202305358@college.edu",
+    "purpose": "Pre-placement Aptitude Training"
+  },
+  {
+    "id": "DEMO_084",
+    "date": "2026-10-15",
+    "slot_id": 4,
+    "expected_strength": 55,
+    "room_type": "CLASSROOM",
+    "required_facilities": [],
+    "department_id": 1,
+    "preferred_block_id": 1,
+    "preferred_floor": 1,
+    "created_at": "2026-10-12T17:54:00",
+    "requester_id": "202301671",
+    "name": "Divya Iyer",
+    "email": "202301671@college.edu",
+    "purpose": "Departmental Faculty Colloquium"
+  },
+  {
+    "id": "DEMO_085",
+    "date": "2026-10-16",
+    "slot_id": 2,
+    "expected_strength": 40,
+    "room_type": "LAB",
+    "required_facilities": [
+      "lab_equipment"
+    ],
+    "department_id": 4,
+    "preferred_block_id": 3,
+    "preferred_floor": 2,
+    "created_at": "2026-10-12T16:08:00",
+    "requester_id": "202304412",
+    "name": "Varun Bhat",
+    "email": "202304412@college.edu",
+    "purpose": "Web Technologies Interactive Lecture"
+  },
+  {
+    "id": "DEMO_086",
+    "date": "2026-10-13",
+    "slot_id": 4,
+    "expected_strength": 35,
+    "room_type": "CLASSROOM",
+    "required_facilities": [
+      "projector"
+    ],
+    "department_id": 6,
+    "preferred_block_id": 4,
+    "preferred_floor": 1,
+    "created_at": "2026-10-10T21:30:00",
+    "requester_id": "202306665",
+    "name": "Divya Verma",
+    "email": "202306665@college.edu",
+    "purpose": "Machine Learning Laboratory Session"
+  },
+  {
+    "id": "DEMO_087",
+    "date": "2026-10-13",
+    "slot_id": 5,
+    "expected_strength": 35,
+    "room_type": "CLASSROOM",
+    "required_facilities": [
+      "projector"
+    ],
+    "department_id": 6,
+    "preferred_block_id": 4,
+    "preferred_floor": 1,
+    "created_at": "2026-10-10T21:31:00",
+    "requester_id": "202306665",
+    "name": "Divya Verma",
+    "email": "202306665@college.edu",
+    "purpose": "Machine Learning Laboratory Session (Part 2)"
+  },
+  {
+    "id": "DEMO_088",
+    "date": "2026-10-16",
+    "slot_id": 3,
+    "expected_strength": 55,
+    "room_type": "CLASSROOM",
+    "required_facilities": [
+      "projector",
+      "ac"
+    ],
+    "department_id": 4,
+    "preferred_block_id": 3,
+    "preferred_floor": 2,
+    "created_at": "2026-10-12T19:33:00",
+    "requester_id": "202304172",
+    "name": "Siddharth Chopra",
+    "email": "202304172@college.edu",
+    "purpose": "Guest Lecture on Quantum Computing"
+  },
+  {
+    "id": "DEMO_089",
+    "date": "2026-10-16",
+    "slot_id": 4,
+    "expected_strength": 55,
+    "room_type": "CLASSROOM",
+    "required_facilities": [
+      "projector",
+      "ac"
+    ],
+    "department_id": 4,
+    "preferred_block_id": 3,
+    "preferred_floor": 2,
+    "created_at": "2026-10-12T19:34:00",
+    "requester_id": "202304172",
+    "name": "Siddharth Chopra",
+    "email": "202304172@college.edu",
+    "purpose": "Guest Lecture on Quantum Computing (Part 2)"
+  },
+  {
+    "id": "DEMO_090",
+    "date": "2026-10-16",
+    "slot_id": 3,
+    "expected_strength": 50,
+    "room_type": "CLASSROOM",
+    "required_facilities": [
+      "projector"
+    ],
+    "department_id": 6,
+    "preferred_block_id": 4,
+    "preferred_floor": 1,
+    "created_at": "2026-10-11T17:14:00",
+    "requester_id": "202306173",
+    "name": "Karthik Nair",
+    "email": "202306173@college.edu",
+    "purpose": "Algorithms & Data Structures Lecture"
+  },
+  {
+    "id": "DEMO_091",
+    "date": "2026-10-16",
+    "slot_id": 4,
+    "expected_strength": 50,
+    "room_type": "CLASSROOM",
+    "required_facilities": [
+      "projector"
+    ],
+    "department_id": 6,
+    "preferred_block_id": 4,
+    "preferred_floor": 1,
+    "created_at": "2026-10-11T17:15:00",
+    "requester_id": "202306173",
+    "name": "Karthik Nair",
+    "email": "202306173@college.edu",
+    "purpose": "Algorithms & Data Structures Lecture (Part 2)"
+  },
+  {
+    "id": "DEMO_092",
+    "date": "2026-10-16",
+    "slot_id": 7,
+    "expected_strength": 55,
+    "room_type": "CLASSROOM",
+    "required_facilities": [
+      "projector",
+      "smart_board"
+    ],
+    "department_id": 3,
+    "preferred_block_id": 2,
+    "preferred_floor": 3,
+    "created_at": "2026-10-12T12:17:00",
+    "requester_id": "202303548",
+    "name": "Karthik Das",
+    "email": "202303548@college.edu",
+    "purpose": "Machine Learning Laboratory Session"
+  },
+  {
+    "id": "DEMO_093",
+    "date": "2026-10-14",
+    "slot_id": 3,
+    "expected_strength": 50,
+    "room_type": "CLASSROOM",
+    "required_facilities": [],
+    "department_id": 5,
+    "preferred_block_id": 3,
+    "preferred_floor": 3,
+    "created_at": "2026-10-11T00:14:00",
+    "requester_id": "202305690",
+    "name": "Anjali Rao",
+    "email": "202305690@college.edu",
+    "purpose": "Algorithms & Data Structures Lecture"
+  },
+  {
+    "id": "DEMO_094",
+    "date": "2026-10-16",
+    "slot_id": 2,
+    "expected_strength": 35,
+    "room_type": "LAB",
+    "required_facilities": [
+      "pcs",
+      "projector"
+    ],
+    "department_id": 6,
+    "preferred_block_id": 4,
+    "preferred_floor": 2,
+    "created_at": "2026-10-11T00:10:00",
+    "requester_id": "202306750",
+    "name": "Varun Bhat",
+    "email": "202306750@college.edu",
+    "purpose": "Pre-placement Aptitude Training"
+  },
+  {
+    "id": "DEMO_095",
+    "date": "2026-10-14",
+    "slot_id": 7,
+    "expected_strength": 35,
+    "room_type": "CLASSROOM",
+    "required_facilities": [
+      "projector"
+    ],
+    "department_id": 4,
+    "preferred_block_id": 3,
+    "preferred_floor": 2,
+    "created_at": "2026-10-12T23:04:00",
+    "requester_id": "202304810",
+    "name": "Arjun Bhat",
+    "email": "202304810@college.edu",
+    "purpose": "Software Engineering Project Review"
+  },
+  {
+    "id": "DEMO_096",
+    "date": "2026-10-16",
+    "slot_id": 1,
+    "expected_strength": 55,
+    "room_type": "CLASSROOM",
+    "required_facilities": [
+      "projector",
+      "ac"
+    ],
+    "department_id": 1,
+    "preferred_block_id": 1,
+    "preferred_floor": 2,
+    "created_at": "2026-10-12T01:47:00",
+    "requester_id": "202301985",
+    "name": "Sneha Mehta",
+    "email": "202301985@college.edu",
+    "purpose": "Database Management Systems Lab"
+  },
+  {
+    "id": "DEMO_097",
+    "date": "2026-10-16",
+    "slot_id": 5,
+    "expected_strength": 60,
+    "room_type": "CLASSROOM",
+    "required_facilities": [
+      "projector",
+      "smart_board"
+    ],
+    "department_id": 4,
+    "preferred_block_id": 3,
+    "preferred_floor": 2,
+    "created_at": "2026-10-09T01:53:00",
+    "requester_id": "202304878",
+    "name": "Manish Chopra",
+    "email": "202304878@college.edu",
+    "purpose": "Algorithms & Data Structures Lecture"
+  },
+  {
+    "id": "DEMO_098",
+    "date": "2026-10-16",
+    "slot_id": 6,
+    "expected_strength": 60,
+    "room_type": "CLASSROOM",
+    "required_facilities": [
+      "projector",
+      "smart_board"
+    ],
+    "department_id": 4,
+    "preferred_block_id": 3,
+    "preferred_floor": 2,
+    "created_at": "2026-10-09T01:54:00",
+    "requester_id": "202304878",
+    "name": "Manish Chopra",
+    "email": "202304878@college.edu",
+    "purpose": "Algorithms & Data Structures Lecture (Part 2)"
+  },
+  {
+    "id": "DEMO_099",
+    "date": "2026-10-14",
+    "slot_id": 7,
+    "expected_strength": 50,
+    "room_type": "CLASSROOM",
+    "required_facilities": [
+      "projector"
+    ],
+    "department_id": 4,
+    "preferred_block_id": 3,
+    "preferred_floor": 2,
+    "created_at": "2026-10-08T23:29:00",
+    "requester_id": "202304665",
+    "name": "Meera Sharma",
+    "email": "202304665@college.edu",
+    "purpose": "Marketing Analytics Case Study"
+  },
+  {
+    "id": "DEMO_100",
+    "date": "2026-10-14",
+    "slot_id": 8,
+    "expected_strength": 50,
+    "room_type": "CLASSROOM",
+    "required_facilities": [
+      "projector"
+    ],
+    "department_id": 4,
+    "preferred_block_id": 3,
+    "preferred_floor": 2,
+    "created_at": "2026-10-08T23:30:00",
+    "requester_id": "202304665",
+    "name": "Meera Sharma",
+    "email": "202304665@college.edu",
+    "purpose": "Marketing Analytics Case Study (Part 2)"
+  },
+  {
+    "id": "DEMO_101",
+    "date": "2026-10-15",
+    "slot_id": 3,
+    "expected_strength": 55,
+    "room_type": "CLASSROOM",
+    "required_facilities": [
+      "projector",
+      "ac"
+    ],
+    "department_id": 1,
+    "preferred_block_id": 1,
+    "preferred_floor": 1,
+    "created_at": "2026-10-10T12:22:00",
+    "requester_id": "202301583",
+    "name": "Kavya Das",
+    "email": "202301583@college.edu",
+    "purpose": "Fluid Dynamics Problem Solving"
+  },
+  {
+    "id": "DEMO_102",
+    "date": "2026-10-13",
+    "slot_id": 1,
+    "expected_strength": 40,
+    "room_type": "LAB",
+    "required_facilities": [
+      "lab_equipment"
+    ],
+    "department_id": 5,
+    "preferred_block_id": 3,
+    "preferred_floor": 2,
+    "created_at": "2026-10-09T22:37:00",
+    "requester_id": "202305906",
+    "name": "Kavya Joshi",
+    "email": "202305906@college.edu",
+    "purpose": "Database Management Systems Lab"
+  },
+  {
+    "id": "DEMO_103",
+    "date": "2026-10-14",
+    "slot_id": 7,
+    "expected_strength": 45,
+    "room_type": "LAB",
+    "required_facilities": [
+      "lab_equipment"
+    ],
+    "department_id": 5,
+    "preferred_block_id": 3,
+    "preferred_floor": 3,
+    "created_at": "2026-10-10T22:10:00",
+    "requester_id": "202305453",
+    "name": "Deepa Das",
+    "email": "202305453@college.edu",
+    "purpose": "Embedded Systems Practicum"
+  },
+  {
+    "id": "DEMO_104",
+    "date": "2026-10-14",
+    "slot_id": 7,
+    "expected_strength": 50,
+    "room_type": "CLASSROOM",
+    "required_facilities": [
+      "projector",
+      "smart_board"
+    ],
+    "department_id": 2,
+    "preferred_block_id": 2,
+    "preferred_floor": 1,
+    "created_at": "2026-10-10T12:42:00",
+    "requester_id": "202302862",
+    "name": "Ananya Joshi",
+    "email": "202302862@college.edu",
+    "purpose": "Software Engineering Project Review"
+  },
+  {
+    "id": "DEMO_105",
+    "date": "2026-10-13",
+    "slot_id": 3,
+    "expected_strength": 60,
+    "room_type": "CLASSROOM",
+    "required_facilities": [],
+    "department_id": 4,
+    "preferred_block_id": 3,
+    "preferred_floor": 1,
+    "created_at": "2026-10-10T15:58:00",
+    "requester_id": "202304638",
+    "name": "Rahul Iyer",
+    "email": "202304638@college.edu",
+    "purpose": "Student Council Seminar"
+  },
+  {
+    "id": "DEMO_106",
+    "date": "2026-10-13",
+    "slot_id": 7,
+    "expected_strength": 40,
+    "room_type": "LAB",
+    "required_facilities": [
+      "pcs",
+      "projector"
+    ],
+    "department_id": 1,
+    "preferred_block_id": 1,
+    "preferred_floor": 2,
+    "created_at": "2026-10-10T03:14:00",
+    "requester_id": "202301765",
+    "name": "Arjun Mehta",
+    "email": "202301765@college.edu",
+    "purpose": "Machine Learning Laboratory Session"
+  },
+  {
+    "id": "DEMO_107",
+    "date": "2026-10-15",
+    "slot_id": 2,
+    "expected_strength": 50,
+    "room_type": "CLASSROOM",
+    "required_facilities": [
+      "projector",
+      "ac"
+    ],
+    "department_id": 5,
+    "preferred_block_id": 3,
+    "preferred_floor": 2,
+    "created_at": "2026-10-10T20:34:00",
+    "requester_id": "202305544",
+    "name": "Divya Reddy",
+    "email": "202305544@college.edu",
+    "purpose": "Machine Learning Laboratory Session"
+  },
+  {
+    "id": "DEMO_108",
+    "date": "2026-10-13",
+    "slot_id": 3,
+    "expected_strength": 30,
+    "room_type": "LAB",
+    "required_facilities": [
+      "pcs",
+      "projector"
+    ],
+    "department_id": 6,
+    "preferred_block_id": 4,
+    "preferred_floor": 2,
+    "created_at": "2026-10-09T17:20:00",
+    "requester_id": "202306400",
+    "name": "Arjun Patel",
+    "email": "202306400@college.edu",
+    "purpose": "Embedded Systems Practicum"
+  },
+  {
+    "id": "DEMO_109",
+    "date": "2026-10-16",
+    "slot_id": 4,
+    "expected_strength": 35,
+    "room_type": "CLASSROOM",
+    "required_facilities": [
+      "projector",
+      "smart_board"
+    ],
+    "department_id": 4,
+    "preferred_block_id": 3,
+    "preferred_floor": 1,
+    "created_at": "2026-10-10T22:57:00",
+    "requester_id": "202304609",
+    "name": "Isha Deshmukh",
+    "email": "202304609@college.edu",
+    "purpose": "Student Council Seminar"
+  },
+  {
+    "id": "DEMO_110",
+    "date": "2026-10-14",
+    "slot_id": 5,
+    "expected_strength": 75,
+    "room_type": "CLASSROOM",
+    "required_facilities": [
+      "projector",
+      "ac"
+    ],
+    "department_id": 4,
+    "preferred_block_id": 3,
+    "preferred_floor": 2,
+    "created_at": "2026-10-11T23:14:00",
+    "requester_id": "202304175",
+    "name": "Anjali Verma",
+    "email": "202304175@college.edu",
+    "purpose": "Software Engineering Project Review"
+  },
+  {
+    "id": "DEMO_111",
+    "date": "2026-10-15",
+    "slot_id": 6,
+    "expected_strength": 55,
+    "room_type": "CLASSROOM",
+    "required_facilities": [
+      "projector"
+    ],
+    "department_id": 6,
+    "preferred_block_id": 4,
+    "preferred_floor": 2,
+    "created_at": "2026-10-11T14:28:00",
+    "requester_id": "202306209",
+    "name": "Sanjay Das",
+    "email": "202306209@college.edu",
+    "purpose": "Fluid Dynamics Problem Solving"
+  },
+  {
+    "id": "DEMO_112",
+    "date": "2026-10-14",
+    "slot_id": 5,
+    "expected_strength": 70,
+    "room_type": "CLASSROOM",
+    "required_facilities": [
+      "projector",
+      "ac"
+    ],
+    "department_id": 6,
+    "preferred_block_id": 4,
+    "preferred_floor": 2,
+    "created_at": "2026-10-12T17:54:00",
+    "requester_id": "202306720",
+    "name": "Aarav Patel",
+    "email": "202306720@college.edu",
+    "purpose": "Robotics Club Technical Hands-on"
+  },
+  {
+    "id": "DEMO_113",
+    "date": "2026-10-13",
+    "slot_id": 1,
+    "expected_strength": 50,
+    "room_type": "CLASSROOM",
+    "required_facilities": [
+      "projector",
+      "ac"
+    ],
+    "department_id": 5,
+    "preferred_block_id": 3,
+    "preferred_floor": 3,
+    "created_at": "2026-10-10T02:10:00",
+    "requester_id": "202305743",
+    "name": "Anjali Nair",
+    "email": "202305743@college.edu",
+    "purpose": "Machine Learning Laboratory Session"
+  },
+  {
+    "id": "DEMO_114",
+    "date": "2026-10-15",
+    "slot_id": 5,
+    "expected_strength": 35,
+    "room_type": "CLASSROOM",
+    "required_facilities": [
+      "projector",
+      "ac"
+    ],
+    "department_id": 1,
+    "preferred_block_id": 1,
+    "preferred_floor": 2,
+    "created_at": "2026-10-13T07:39:00",
+    "requester_id": "202301279",
+    "name": "Arjun Bhat",
+    "email": "202301279@college.edu",
+    "purpose": "Fluid Dynamics Problem Solving"
+  },
+  {
+    "id": "DEMO_115",
+    "date": "2026-10-15",
+    "slot_id": 6,
+    "expected_strength": 35,
+    "room_type": "CLASSROOM",
+    "required_facilities": [
+      "projector",
+      "ac"
+    ],
+    "department_id": 1,
+    "preferred_block_id": 1,
+    "preferred_floor": 2,
+    "created_at": "2026-10-13T07:40:00",
+    "requester_id": "202301279",
+    "name": "Arjun Bhat",
+    "email": "202301279@college.edu",
+    "purpose": "Fluid Dynamics Problem Solving (Part 2)"
+  },
+  {
+    "id": "DEMO_116",
+    "date": "2026-10-14",
+    "slot_id": 2,
+    "expected_strength": 40,
+    "room_type": "LAB",
+    "required_facilities": [
+      "lab_equipment"
+    ],
+    "department_id": 5,
+    "preferred_block_id": 3,
+    "preferred_floor": 3,
+    "created_at": "2026-10-10T23:56:00",
+    "requester_id": "202305864",
+    "name": "Priya Menon",
+    "email": "202305864@college.edu",
+    "purpose": "Pre-placement Aptitude Training"
+  },
+  {
+    "id": "DEMO_117",
+    "date": "2026-10-12",
+    "slot_id": 5,
+    "expected_strength": 45,
+    "room_type": "LAB",
+    "required_facilities": [
+      "lab_equipment"
+    ],
+    "department_id": 2,
+    "preferred_block_id": 2,
+    "preferred_floor": 1,
+    "created_at": "2026-10-11T09:15:00",
+    "requester_id": "202302192",
+    "name": "Deepa Gupta",
+    "email": "202302192@college.edu",
+    "purpose": "Departmental Faculty Colloquium"
+  },
+  {
+    "id": "DEMO_118",
+    "date": "2026-10-12",
+    "slot_id": 1,
+    "expected_strength": 55,
+    "room_type": "CLASSROOM",
+    "required_facilities": [
+      "projector",
+      "smart_board"
+    ],
+    "department_id": 4,
+    "preferred_block_id": 3,
+    "preferred_floor": 2,
+    "created_at": "2026-10-11T20:35:00",
+    "requester_id": "202304210",
+    "name": "Manish Gupta",
+    "email": "202304210@college.edu",
+    "purpose": "Guest Lecture on Quantum Computing"
+  },
+  {
+    "id": "DEMO_119",
+    "date": "2026-10-12",
+    "slot_id": 2,
+    "expected_strength": 55,
+    "room_type": "CLASSROOM",
+    "required_facilities": [
+      "projector",
+      "smart_board"
+    ],
+    "department_id": 4,
+    "preferred_block_id": 3,
+    "preferred_floor": 2,
+    "created_at": "2026-10-11T20:36:00",
+    "requester_id": "202304210",
+    "name": "Manish Gupta",
+    "email": "202304210@college.edu",
+    "purpose": "Guest Lecture on Quantum Computing (Part 2)"
+  },
+  {
+    "id": "DEMO_120",
+    "date": "2026-10-16",
+    "slot_id": 1,
+    "expected_strength": 75,
+    "room_type": "CLASSROOM",
+    "required_facilities": [
+      "projector",
+      "ac"
+    ],
+    "department_id": 3,
+    "preferred_block_id": 2,
+    "preferred_floor": 2,
+    "created_at": "2026-10-10T01:33:00",
+    "requester_id": "202303219",
+    "name": "Manish Bhat",
+    "email": "202303219@college.edu",
+    "purpose": "Signals & Systems Tutorial"
+  },
+  {
+    "id": "DEMO_121",
+    "date": "2026-10-16",
+    "slot_id": 2,
+    "expected_strength": 75,
+    "room_type": "CLASSROOM",
+    "required_facilities": [
+      "projector",
+      "ac"
+    ],
+    "department_id": 3,
+    "preferred_block_id": 2,
+    "preferred_floor": 2,
+    "created_at": "2026-10-10T01:34:00",
+    "requester_id": "202303219",
+    "name": "Manish Bhat",
+    "email": "202303219@college.edu",
+    "purpose": "Signals & Systems Tutorial (Part 2)"
+  },
+  {
+    "id": "DEMO_122",
+    "date": "2026-10-15",
+    "slot_id": 7,
+    "expected_strength": 45,
+    "room_type": "CLASSROOM",
+    "required_facilities": [
+      "projector",
+      "smart_board"
+    ],
+    "department_id": 1,
+    "preferred_block_id": 1,
+    "preferred_floor": 1,
+    "created_at": "2026-10-11T16:11:00",
+    "requester_id": "202301786",
+    "name": "Rahul Gupta",
+    "email": "202301786@college.edu",
+    "purpose": "Robotics Club Technical Hands-on"
+  },
+  {
+    "id": "DEMO_123",
+    "date": "2026-10-13",
+    "slot_id": 8,
+    "expected_strength": 50,
+    "room_type": "LAB",
+    "required_facilities": [
+      "lab_equipment"
+    ],
+    "department_id": 4,
+    "preferred_block_id": 3,
+    "preferred_floor": 1,
+    "created_at": "2026-10-10T20:42:00",
+    "requester_id": "202304133",
+    "name": "Kavya Rao",
+    "email": "202304133@college.edu",
+    "purpose": "Robotics Club Technical Hands-on"
+  },
+  {
+    "id": "DEMO_124",
+    "date": "2026-10-13",
+    "slot_id": 2,
+    "expected_strength": 120,
+    "room_type": "SEMINAR_HALL",
+    "required_facilities": [
+      "projector",
+      "sound_system",
+      "mic"
+    ],
+    "department_id": 3,
+    "preferred_block_id": 2,
+    "preferred_floor": 2,
+    "created_at": "2026-10-13T03:47:00",
+    "requester_id": "202303162",
+    "name": "Deepa Gupta",
+    "email": "202303162@college.edu",
+    "purpose": "Marketing Analytics Case Study"
+  },
+  {
+    "id": "DEMO_125",
+    "date": "2026-10-15",
+    "slot_id": 2,
+    "expected_strength": 30,
+    "room_type": "CLASSROOM",
+    "required_facilities": [],
+    "department_id": 1,
+    "preferred_block_id": 1,
+    "preferred_floor": 1,
+    "created_at": "2026-10-13T01:17:00",
+    "requester_id": "202301228",
+    "name": "Arjun Deshmukh",
+    "email": "202301228@college.edu",
+    "purpose": "Departmental Faculty Colloquium"
+  },
+  {
+    "id": "DEMO_126",
+    "date": "2026-10-16",
+    "slot_id": 5,
+    "expected_strength": 35,
+    "room_type": "LAB",
+    "required_facilities": [
+      "lab_equipment"
+    ],
+    "department_id": 2,
+    "preferred_block_id": 2,
+    "preferred_floor": 1,
+    "created_at": "2026-10-13T05:12:00",
+    "requester_id": "202302907",
+    "name": "Arjun Nair",
+    "email": "202302907@college.edu",
+    "purpose": "Student Council Seminar"
+  },
+  {
+    "id": "DEMO_127",
+    "date": "2026-10-13",
+    "slot_id": 4,
+    "expected_strength": 30,
+    "room_type": "LAB",
+    "required_facilities": [
+      "lab_equipment"
+    ],
+    "department_id": 2,
+    "preferred_block_id": 2,
+    "preferred_floor": 2,
+    "created_at": "2026-10-11T16:23:00",
+    "requester_id": "202302234",
+    "name": "Anjali Sharma",
+    "email": "202302234@college.edu",
+    "purpose": "Algorithms & Data Structures Lecture"
+  },
+  {
+    "id": "DEMO_128",
+    "date": "2026-10-14",
+    "slot_id": 6,
+    "expected_strength": 45,
+    "room_type": "CLASSROOM",
+    "required_facilities": [
+      "projector",
+      "smart_board"
+    ],
+    "department_id": 1,
+    "preferred_block_id": 1,
+    "preferred_floor": 1,
+    "created_at": "2026-10-11T06:04:00",
+    "requester_id": "202301863",
+    "name": "Nikhil Iyer",
+    "email": "202301863@college.edu",
+    "purpose": "Machine Learning Laboratory Session"
+  },
+  {
+    "id": "DEMO_129",
+    "date": "2026-10-16",
+    "slot_id": 7,
+    "expected_strength": 30,
+    "room_type": "CLASSROOM",
+    "required_facilities": [
+      "projector",
+      "ac"
+    ],
+    "department_id": 1,
+    "preferred_block_id": 1,
+    "preferred_floor": 2,
+    "created_at": "2026-10-12T05:40:00",
+    "requester_id": "202301162",
+    "name": "Rahul Sharma",
+    "email": "202301162@college.edu",
+    "purpose": "Software Engineering Project Review"
+  },
+  {
+    "id": "DEMO_130",
+    "date": "2026-10-12",
+    "slot_id": 6,
+    "expected_strength": 35,
+    "room_type": "CLASSROOM",
+    "required_facilities": [
+      "projector",
+      "ac"
+    ],
+    "department_id": 4,
+    "preferred_block_id": 3,
+    "preferred_floor": 2,
+    "created_at": "2026-10-10T12:00:00",
+    "requester_id": "202304167",
+    "name": "Isha Nair",
+    "email": "202304167@college.edu",
+    "purpose": "Signals & Systems Tutorial"
+  },
+  {
+    "id": "DEMO_131",
+    "date": "2026-10-16",
+    "slot_id": 4,
+    "expected_strength": 70,
+    "room_type": "CLASSROOM",
+    "required_facilities": [],
+    "department_id": 5,
+    "preferred_block_id": 3,
+    "preferred_floor": 3,
+    "created_at": "2026-10-10T18:43:00",
+    "requester_id": "202305973",
+    "name": "Siddharth Iyer",
+    "email": "202305973@college.edu",
+    "purpose": "Guest Lecture on Quantum Computing"
+  },
+  {
+    "id": "DEMO_132",
+    "date": "2026-10-15",
+    "slot_id": 5,
+    "expected_strength": 75,
+    "room_type": "CLASSROOM",
+    "required_facilities": [
+      "projector",
+      "smart_board"
+    ],
+    "department_id": 2,
+    "preferred_block_id": 2,
+    "preferred_floor": 2,
+    "created_at": "2026-10-10T11:06:00",
+    "requester_id": "202302420",
+    "name": "Kavya Iyer",
+    "email": "202302420@college.edu",
+    "purpose": "Marketing Analytics Case Study"
+  },
+  {
+    "id": "DEMO_133",
+    "date": "2026-10-13",
+    "slot_id": 3,
+    "expected_strength": 35,
+    "room_type": "CLASSROOM",
+    "required_facilities": [],
+    "department_id": 6,
+    "preferred_block_id": 4,
+    "preferred_floor": 2,
+    "created_at": "2026-10-11T11:57:00",
+    "requester_id": "202306862",
+    "name": "Kavya Iyer",
+    "email": "202306862@college.edu",
+    "purpose": "Robotics Club Technical Hands-on"
+  },
+  {
+    "id": "DEMO_134",
+    "date": "2026-10-12",
+    "slot_id": 5,
+    "expected_strength": 70,
+    "room_type": "CLASSROOM",
+    "required_facilities": [
+      "projector",
+      "ac"
+    ],
+    "department_id": 5,
+    "preferred_block_id": 3,
+    "preferred_floor": 3,
+    "created_at": "2026-10-11T17:58:00",
+    "requester_id": "202305988",
+    "name": "Anjali Bhat",
+    "email": "202305988@college.edu",
+    "purpose": "Student Council Seminar"
+  },
+  {
+    "id": "DEMO_135",
+    "date": "2026-10-14",
+    "slot_id": 7,
+    "expected_strength": 50,
+    "room_type": "CLASSROOM",
+    "required_facilities": [
+      "projector"
+    ],
+    "department_id": 3,
+    "preferred_block_id": 2,
+    "preferred_floor": 2,
+    "created_at": "2026-10-11T11:56:00",
+    "requester_id": "202303329",
+    "name": "Anjali Das",
+    "email": "202303329@college.edu",
+    "purpose": "Pre-placement Aptitude Training"
+  },
+  {
+    "id": "DEMO_136",
+    "date": "2026-10-14",
+    "slot_id": 8,
+    "expected_strength": 50,
+    "room_type": "CLASSROOM",
+    "required_facilities": [
+      "projector"
+    ],
+    "department_id": 3,
+    "preferred_block_id": 2,
+    "preferred_floor": 2,
+    "created_at": "2026-10-11T11:57:00",
+    "requester_id": "202303329",
+    "name": "Anjali Das",
+    "email": "202303329@college.edu",
+    "purpose": "Pre-placement Aptitude Training (Part 2)"
+  },
+  {
+    "id": "DEMO_137",
+    "date": "2026-10-14",
+    "slot_id": 5,
+    "expected_strength": 70,
+    "room_type": "CLASSROOM",
+    "required_facilities": [],
+    "department_id": 1,
+    "preferred_block_id": 1,
+    "preferred_floor": 2,
+    "created_at": "2026-10-10T06:23:00",
+    "requester_id": "202301129",
+    "name": "Isha Rao",
+    "email": "202301129@college.edu",
+    "purpose": "Signals & Systems Tutorial"
+  },
+  {
+    "id": "DEMO_138",
+    "date": "2026-10-14",
+    "slot_id": 1,
+    "expected_strength": 50,
+    "room_type": "LAB",
+    "required_facilities": [
+      "pcs",
+      "projector"
+    ],
+    "department_id": 1,
+    "preferred_block_id": 1,
+    "preferred_floor": 1,
+    "created_at": "2026-10-08T20:31:00",
+    "requester_id": "202301171",
+    "name": "Anjali Mehta",
+    "email": "202301171@college.edu",
+    "purpose": "Signals & Systems Tutorial"
+  },
+  {
+    "id": "DEMO_139",
+    "date": "2026-10-16",
+    "slot_id": 2,
+    "expected_strength": 60,
+    "room_type": "CLASSROOM",
+    "required_facilities": [
+      "projector"
+    ],
+    "department_id": 2,
+    "preferred_block_id": 2,
+    "preferred_floor": 2,
+    "created_at": "2026-10-08T15:10:00",
+    "requester_id": "202302838",
+    "name": "Neha Menon",
+    "email": "202302838@college.edu",
+    "purpose": "Embedded Systems Practicum"
+  },
+  {
+    "id": "DEMO_140",
+    "date": "2026-10-13",
+    "slot_id": 5,
+    "expected_strength": 55,
+    "room_type": "CLASSROOM",
+    "required_facilities": [
+      "projector",
+      "smart_board"
+    ],
+    "department_id": 2,
+    "preferred_block_id": 2,
+    "preferred_floor": 1,
+    "created_at": "2026-10-09T13:25:00",
+    "requester_id": "202302597",
+    "name": "Anjali Bhat",
+    "email": "202302597@college.edu",
+    "purpose": "Web Technologies Interactive Lecture"
+  },
+  {
+    "id": "DEMO_141",
+    "date": "2026-10-16",
+    "slot_id": 1,
+    "expected_strength": 55,
+    "room_type": "CLASSROOM",
+    "required_facilities": [
+      "projector",
+      "smart_board"
+    ],
+    "department_id": 1,
+    "preferred_block_id": 1,
+    "preferred_floor": 2,
+    "created_at": "2026-10-08T09:02:00",
+    "requester_id": "202301146",
+    "name": "Nikhil Menon",
+    "email": "202301146@college.edu",
+    "purpose": "Fluid Dynamics Problem Solving"
+  },
+  {
+    "id": "DEMO_142",
+    "date": "2026-10-13",
+    "slot_id": 7,
+    "expected_strength": 40,
+    "room_type": "LAB",
+    "required_facilities": [
+      "pcs",
+      "projector"
+    ],
+    "department_id": 3,
+    "preferred_block_id": 2,
+    "preferred_floor": 2,
+    "created_at": "2026-10-09T07:59:00",
+    "requester_id": "202303222",
+    "name": "Meera Joshi",
+    "email": "202303222@college.edu",
+    "purpose": "Algorithms & Data Structures Lecture"
+  },
+  {
+    "id": "DEMO_143",
+    "date": "2026-10-13",
+    "slot_id": 2,
+    "expected_strength": 60,
+    "room_type": "CLASSROOM",
+    "required_facilities": [],
+    "department_id": 4,
+    "preferred_block_id": 3,
+    "preferred_floor": 1,
+    "created_at": "2026-10-13T05:42:00",
+    "requester_id": "202304546",
+    "name": "Sanjay Patel",
+    "email": "202304546@college.edu",
+    "purpose": "Algorithms & Data Structures Lecture"
+  },
+  {
+    "id": "DEMO_144",
+    "date": "2026-10-14",
+    "slot_id": 5,
+    "expected_strength": 70,
+    "room_type": "CLASSROOM",
+    "required_facilities": [
+      "projector",
+      "ac"
+    ],
+    "department_id": 5,
+    "preferred_block_id": 3,
+    "preferred_floor": 3,
+    "created_at": "2026-10-10T22:49:00",
+    "requester_id": "202305121",
+    "name": "Sneha Mehta",
+    "email": "202305121@college.edu",
+    "purpose": "Embedded Systems Practicum"
+  },
+  {
+    "id": "DEMO_145",
+    "date": "2026-10-14",
+    "slot_id": 6,
+    "expected_strength": 70,
+    "room_type": "CLASSROOM",
+    "required_facilities": [
+      "projector",
+      "ac"
+    ],
+    "department_id": 5,
+    "preferred_block_id": 3,
+    "preferred_floor": 3,
+    "created_at": "2026-10-10T22:50:00",
+    "requester_id": "202305121",
+    "name": "Sneha Mehta",
+    "email": "202305121@college.edu",
+    "purpose": "Embedded Systems Practicum (Part 2)"
+  },
+  {
+    "id": "DEMO_146",
+    "date": "2026-10-14",
+    "slot_id": 5,
+    "expected_strength": 35,
+    "room_type": "LAB",
+    "required_facilities": [
+      "pcs",
+      "projector"
+    ],
+    "department_id": 1,
+    "preferred_block_id": 1,
+    "preferred_floor": 2,
+    "created_at": "2026-10-12T13:49:00",
+    "requester_id": "202301636",
+    "name": "Kavya Mehta",
+    "email": "202301636@college.edu",
+    "purpose": "Machine Learning Laboratory Session"
+  },
+  {
+    "id": "DEMO_147",
+    "date": "2026-10-14",
+    "slot_id": 7,
+    "expected_strength": 30,
+    "room_type": "LAB",
+    "required_facilities": [
+      "lab_equipment"
+    ],
+    "department_id": 2,
+    "preferred_block_id": 2,
+    "preferred_floor": 2,
+    "created_at": "2026-10-10T07:42:00",
+    "requester_id": "202302643",
+    "name": "Nikhil Iyer",
+    "email": "202302643@college.edu",
+    "purpose": "Database Management Systems Lab"
+  },
+  {
+    "id": "DEMO_148",
+    "date": "2026-10-14",
+    "slot_id": 8,
+    "expected_strength": 30,
+    "room_type": "LAB",
+    "required_facilities": [
+      "lab_equipment"
+    ],
+    "department_id": 2,
+    "preferred_block_id": 2,
+    "preferred_floor": 2,
+    "created_at": "2026-10-10T07:43:00",
+    "requester_id": "202302643",
+    "name": "Nikhil Iyer",
+    "email": "202302643@college.edu",
+    "purpose": "Database Management Systems Lab (Part 2)"
+  },
+  {
+    "id": "DEMO_149",
+    "date": "2026-10-14",
+    "slot_id": 2,
+    "expected_strength": 45,
+    "room_type": "CLASSROOM",
+    "required_facilities": [
+      "projector",
+      "ac"
+    ],
+    "department_id": 6,
+    "preferred_block_id": 4,
+    "preferred_floor": 1,
+    "created_at": "2026-10-09T08:11:00",
+    "requester_id": "202306716",
+    "name": "Aditya Verma",
+    "email": "202306716@college.edu",
+    "purpose": "Signals & Systems Tutorial"
+  },
+  {
+    "id": "DEMO_150",
+    "date": "2026-10-15",
+    "slot_id": 5,
+    "expected_strength": 60,
+    "room_type": "CLASSROOM",
+    "required_facilities": [
+      "projector",
+      "ac"
+    ],
+    "department_id": 4,
+    "preferred_block_id": 3,
+    "preferred_floor": 2,
+    "created_at": "2026-10-12T20:43:00",
+    "requester_id": "202304169",
+    "name": "Vikram Chopra",
+    "email": "202304169@college.edu",
+    "purpose": "Software Engineering Project Review"
+  },
+  {
+    "id": "DEMO_151",
+    "date": "2026-10-14",
+    "slot_id": 5,
+    "expected_strength": 35,
+    "room_type": "CLASSROOM",
+    "required_facilities": [
+      "projector",
+      "ac"
+    ],
+    "department_id": 5,
+    "preferred_block_id": 3,
+    "preferred_floor": 2,
+    "created_at": "2026-10-08T18:28:00",
+    "requester_id": "202305138",
+    "name": "Rahul Chopra",
+    "email": "202305138@college.edu",
+    "purpose": "Algorithms & Data Structures Lecture"
+  },
+  {
+    "id": "DEMO_152",
+    "date": "2026-10-12",
+    "slot_id": 3,
+    "expected_strength": 30,
+    "room_type": "CLASSROOM",
+    "required_facilities": [
+      "projector",
+      "smart_board"
+    ],
+    "department_id": 5,
+    "preferred_block_id": 3,
+    "preferred_floor": 3,
+    "created_at": "2026-10-08T16:26:00",
+    "requester_id": "202305429",
+    "name": "Varun Kulkarni",
+    "email": "202305429@college.edu",
+    "purpose": "Web Technologies Interactive Lecture"
+  },
+  {
+    "id": "DEMO_153",
+    "date": "2026-10-15",
+    "slot_id": 8,
+    "expected_strength": 80,
+    "room_type": "SEMINAR_HALL",
+    "required_facilities": [
+      "projector",
+      "sound_system",
+      "mic"
+    ],
+    "department_id": 1,
+    "preferred_block_id": 1,
+    "preferred_floor": 2,
+    "created_at": "2026-10-11T07:33:00",
+    "requester_id": "202301140",
+    "name": "Nikhil Verma",
+    "email": "202301140@college.edu",
+    "purpose": "Fluid Dynamics Problem Solving"
+  },
+  {
+    "id": "DEMO_154",
+    "date": "2026-10-16",
+    "slot_id": 6,
+    "expected_strength": 55,
+    "room_type": "CLASSROOM",
+    "required_facilities": [
+      "projector",
+      "smart_board"
+    ],
+    "department_id": 5,
+    "preferred_block_id": 3,
+    "preferred_floor": 2,
+    "created_at": "2026-10-12T00:22:00",
+    "requester_id": "202305795",
+    "name": "Kavya Joshi",
+    "email": "202305795@college.edu",
+    "purpose": "Web Technologies Interactive Lecture"
+  },
+  {
+    "id": "DEMO_155",
+    "date": "2026-10-16",
+    "slot_id": 7,
+    "expected_strength": 55,
+    "room_type": "CLASSROOM",
+    "required_facilities": [
+      "projector",
+      "smart_board"
+    ],
+    "department_id": 5,
+    "preferred_block_id": 3,
+    "preferred_floor": 2,
+    "created_at": "2026-10-12T00:23:00",
+    "requester_id": "202305795",
+    "name": "Kavya Joshi",
+    "email": "202305795@college.edu",
+    "purpose": "Web Technologies Interactive Lecture (Part 2)"
+  },
+  {
+    "id": "DEMO_156",
+    "date": "2026-10-14",
+    "slot_id": 3,
+    "expected_strength": 70,
+    "room_type": "CLASSROOM",
+    "required_facilities": [
+      "projector",
+      "ac"
+    ],
+    "department_id": 1,
+    "preferred_block_id": 1,
+    "preferred_floor": 2,
+    "created_at": "2026-10-10T07:45:00",
+    "requester_id": "202301441",
+    "name": "Karthik Nair",
+    "email": "202301441@college.edu",
+    "purpose": "Machine Learning Laboratory Session"
+  },
+  {
+    "id": "DEMO_157",
+    "date": "2026-10-14",
+    "slot_id": 3,
+    "expected_strength": 35,
+    "room_type": "CLASSROOM",
+    "required_facilities": [
+      "projector",
+      "ac"
+    ],
+    "department_id": 6,
+    "preferred_block_id": 4,
+    "preferred_floor": 2,
+    "created_at": "2026-10-12T03:29:00",
+    "requester_id": "202306758",
+    "name": "Deepa Mehta",
+    "email": "202306758@college.edu",
+    "purpose": "Departmental Faculty Colloquium"
+  },
+  {
+    "id": "DEMO_158",
+    "date": "2026-10-16",
+    "slot_id": 8,
+    "expected_strength": 30,
+    "room_type": "CLASSROOM",
+    "required_facilities": [
+      "projector",
+      "ac"
+    ],
+    "department_id": 1,
+    "preferred_block_id": 1,
+    "preferred_floor": 2,
+    "created_at": "2026-10-09T10:12:00",
+    "requester_id": "202301319",
+    "name": "Meera Verma",
+    "email": "202301319@college.edu",
+    "purpose": "Embedded Systems Practicum"
+  },
+  {
+    "id": "DEMO_159",
+    "date": "2026-10-13",
+    "slot_id": 7,
+    "expected_strength": 35,
+    "room_type": "CLASSROOM",
+    "required_facilities": [],
+    "department_id": 2,
+    "preferred_block_id": 2,
+    "preferred_floor": 1,
+    "created_at": "2026-10-09T05:03:00",
+    "requester_id": "202302997",
+    "name": "Anjali Joshi",
+    "email": "202302997@college.edu",
+    "purpose": "Departmental Faculty Colloquium"
+  },
+  {
+    "id": "DEMO_160",
+    "date": "2026-10-13",
+    "slot_id": 8,
+    "expected_strength": 30,
+    "room_type": "CLASSROOM",
+    "required_facilities": [
+      "projector",
+      "smart_board"
+    ],
+    "department_id": 2,
+    "preferred_block_id": 2,
+    "preferred_floor": 1,
+    "created_at": "2026-10-09T15:56:00",
+    "requester_id": "202302554",
+    "name": "Neha Deshmukh",
+    "email": "202302554@college.edu",
+    "purpose": "Web Technologies Interactive Lecture"
+  },
+  {
+    "id": "DEMO_161",
+    "date": "2026-10-16",
+    "slot_id": 8,
+    "expected_strength": 140,
+    "room_type": "SEMINAR_HALL",
+    "required_facilities": [
+      "projector",
+      "sound_system",
+      "mic"
+    ],
+    "department_id": 2,
+    "preferred_block_id": 2,
+    "preferred_floor": 2,
+    "created_at": "2026-10-12T17:03:00",
+    "requester_id": "202302794",
+    "name": "Aditya Gupta",
+    "email": "202302794@college.edu",
+    "purpose": "Web Technologies Interactive Lecture"
+  },
+  {
+    "id": "DEMO_162",
+    "date": "2026-10-14",
+    "slot_id": 4,
+    "expected_strength": 100,
+    "room_type": "SEMINAR_HALL",
+    "required_facilities": [
+      "projector",
+      "sound_system",
+      "mic"
+    ],
+    "department_id": 4,
+    "preferred_block_id": 3,
+    "preferred_floor": 2,
+    "created_at": "2026-10-13T07:20:00",
+    "requester_id": "202304993",
+    "name": "Isha Nair",
+    "email": "202304993@college.edu",
+    "purpose": "Thermodynamics Workshop"
+  },
+  {
+    "id": "DEMO_163",
+    "date": "2026-10-14",
+    "slot_id": 5,
+    "expected_strength": 100,
+    "room_type": "SEMINAR_HALL",
+    "required_facilities": [
+      "projector",
+      "sound_system",
+      "mic"
+    ],
+    "department_id": 4,
+    "preferred_block_id": 3,
+    "preferred_floor": 2,
+    "created_at": "2026-10-13T07:21:00",
+    "requester_id": "202304993",
+    "name": "Isha Nair",
+    "email": "202304993@college.edu",
+    "purpose": "Thermodynamics Workshop (Part 2)"
+  },
+  {
+    "id": "DEMO_164",
+    "date": "2026-10-14",
+    "slot_id": 3,
+    "expected_strength": 35,
+    "room_type": "CLASSROOM",
+    "required_facilities": [
+      "projector",
+      "ac"
+    ],
+    "department_id": 5,
+    "preferred_block_id": 3,
+    "preferred_floor": 2,
+    "created_at": "2026-10-13T01:27:00",
+    "requester_id": "202305379",
+    "name": "Rohan Verma",
+    "email": "202305379@college.edu",
+    "purpose": "Software Engineering Project Review"
+  },
+  {
+    "id": "DEMO_165",
+    "date": "2026-10-15",
+    "slot_id": 4,
+    "expected_strength": 40,
+    "room_type": "LAB",
+    "required_facilities": [
+      "pcs",
+      "projector"
+    ],
+    "department_id": 1,
+    "preferred_block_id": 1,
+    "preferred_floor": 1,
+    "created_at": "2026-10-10T12:43:00",
+    "requester_id": "202301154",
+    "name": "Aarav Bhat",
+    "email": "202301154@college.edu",
+    "purpose": "Marketing Analytics Case Study"
+  },
+  {
+    "id": "DEMO_166",
+    "date": "2026-10-12",
+    "slot_id": 8,
+    "expected_strength": 35,
+    "room_type": "CLASSROOM",
+    "required_facilities": [
+      "projector",
+      "ac"
+    ],
+    "department_id": 3,
+    "preferred_block_id": 2,
+    "preferred_floor": 2,
+    "created_at": "2026-10-12T07:02:00",
+    "requester_id": "202303139",
+    "name": "Vikram Nair",
+    "email": "202303139@college.edu",
+    "purpose": "Thermodynamics Workshop"
+  },
+  {
+    "id": "DEMO_167",
+    "date": "2026-10-13",
+    "slot_id": 6,
+    "expected_strength": 30,
+    "room_type": "CLASSROOM",
+    "required_facilities": [],
+    "department_id": 6,
+    "preferred_block_id": 4,
+    "preferred_floor": 2,
+    "created_at": "2026-10-11T19:07:00",
+    "requester_id": "202306320",
+    "name": "Aarav Rao",
+    "email": "202306320@college.edu",
+    "purpose": "Pre-placement Aptitude Training"
+  },
+  {
+    "id": "DEMO_168",
+    "date": "2026-10-13",
+    "slot_id": 7,
+    "expected_strength": 30,
+    "room_type": "CLASSROOM",
+    "required_facilities": [],
+    "department_id": 6,
+    "preferred_block_id": 4,
+    "preferred_floor": 2,
+    "created_at": "2026-10-11T19:08:00",
+    "requester_id": "202306320",
+    "name": "Aarav Rao",
+    "email": "202306320@college.edu",
+    "purpose": "Pre-placement Aptitude Training (Part 2)"
+  },
+  {
+    "id": "DEMO_169",
+    "date": "2026-10-16",
+    "slot_id": 8,
+    "expected_strength": 35,
+    "room_type": "LAB",
+    "required_facilities": [
+      "lab_equipment"
+    ],
+    "department_id": 4,
+    "preferred_block_id": 3,
+    "preferred_floor": 1,
+    "created_at": "2026-10-08T16:34:00",
+    "requester_id": "202304148",
+    "name": "Meera Iyer",
+    "email": "202304148@college.edu",
+    "purpose": "Fluid Dynamics Problem Solving"
+  },
+  {
+    "id": "DEMO_170",
+    "date": "2026-10-12",
+    "slot_id": 7,
+    "expected_strength": 50,
+    "room_type": "CLASSROOM",
+    "required_facilities": [
+      "projector"
+    ],
+    "department_id": 4,
+    "preferred_block_id": 3,
+    "preferred_floor": 1,
+    "created_at": "2026-10-09T09:34:00",
+    "requester_id": "202304101",
+    "name": "Meera Bhat",
+    "email": "202304101@college.edu",
+    "purpose": "Web Technologies Interactive Lecture"
+  },
+  {
+    "id": "DEMO_171",
+    "date": "2026-10-12",
+    "slot_id": 5,
+    "expected_strength": 30,
+    "room_type": "CLASSROOM",
+    "required_facilities": [
+      "projector",
+      "smart_board"
+    ],
+    "department_id": 5,
+    "preferred_block_id": 3,
+    "preferred_floor": 3,
+    "created_at": "2026-10-12T14:02:00",
+    "requester_id": "202305750",
+    "name": "Priya Patel",
+    "email": "202305750@college.edu",
+    "purpose": "Marketing Analytics Case Study"
+  },
+  {
+    "id": "DEMO_172",
+    "date": "2026-10-12",
+    "slot_id": 3,
+    "expected_strength": 35,
+    "room_type": "CLASSROOM",
+    "required_facilities": [
+      "projector",
+      "ac"
+    ],
+    "department_id": 3,
+    "preferred_block_id": 2,
+    "preferred_floor": 2,
+    "created_at": "2026-10-13T01:22:00",
+    "requester_id": "202303460",
+    "name": "Vikram Patel",
+    "email": "202303460@college.edu",
+    "purpose": "Database Management Systems Lab"
+  },
+  {
+    "id": "DEMO_173",
+    "date": "2026-10-15",
+    "slot_id": 7,
+    "expected_strength": 45,
+    "room_type": "CLASSROOM",
+    "required_facilities": [],
+    "department_id": 6,
+    "preferred_block_id": 4,
+    "preferred_floor": 2,
+    "created_at": "2026-10-09T11:14:00",
+    "requester_id": "202306137",
+    "name": "Siddharth Chopra",
+    "email": "202306137@college.edu",
+    "purpose": "Thermodynamics Workshop"
+  },
+  {
+    "id": "DEMO_174",
+    "date": "2026-10-15",
+    "slot_id": 8,
+    "expected_strength": 45,
+    "room_type": "CLASSROOM",
+    "required_facilities": [],
+    "department_id": 6,
+    "preferred_block_id": 4,
+    "preferred_floor": 2,
+    "created_at": "2026-10-09T11:15:00",
+    "requester_id": "202306137",
+    "name": "Siddharth Chopra",
+    "email": "202306137@college.edu",
+    "purpose": "Thermodynamics Workshop (Part 2)"
+  },
+  {
+    "id": "DEMO_175",
+    "date": "2026-10-12",
+    "slot_id": 1,
+    "expected_strength": 75,
+    "room_type": "CLASSROOM",
+    "required_facilities": [
+      "projector",
+      "ac"
+    ],
+    "department_id": 3,
+    "preferred_block_id": 2,
+    "preferred_floor": 3,
+    "created_at": "2026-10-13T06:12:00",
+    "requester_id": "202303392",
+    "name": "Ananya Kulkarni",
+    "email": "202303392@college.edu",
+    "purpose": "Embedded Systems Practicum"
+  },
+  {
+    "id": "DEMO_176",
+    "date": "2026-10-14",
+    "slot_id": 8,
+    "expected_strength": 45,
+    "room_type": "LAB",
+    "required_facilities": [
+      "pcs",
+      "projector"
+    ],
+    "department_id": 3,
+    "preferred_block_id": 2,
+    "preferred_floor": 2,
+    "created_at": "2026-10-12T06:29:00",
+    "requester_id": "202303495",
+    "name": "Sanjay Chopra",
+    "email": "202303495@college.edu",
+    "purpose": "Embedded Systems Practicum"
+  },
+  {
+    "id": "DEMO_177",
+    "date": "2026-10-15",
+    "slot_id": 3,
+    "expected_strength": 45,
+    "room_type": "LAB",
+    "required_facilities": [
+      "pcs",
+      "projector"
+    ],
+    "department_id": 3,
+    "preferred_block_id": 2,
+    "preferred_floor": 3,
+    "created_at": "2026-10-10T03:51:00",
+    "requester_id": "202303716",
+    "name": "Rohan Bhat",
+    "email": "202303716@college.edu",
+    "purpose": "Pre-placement Aptitude Training"
+  },
+  {
+    "id": "DEMO_178",
+    "date": "2026-10-15",
+    "slot_id": 4,
+    "expected_strength": 45,
+    "room_type": "LAB",
+    "required_facilities": [
+      "pcs",
+      "projector"
+    ],
+    "department_id": 3,
+    "preferred_block_id": 2,
+    "preferred_floor": 3,
+    "created_at": "2026-10-10T03:52:00",
+    "requester_id": "202303716",
+    "name": "Rohan Bhat",
+    "email": "202303716@college.edu",
+    "purpose": "Pre-placement Aptitude Training (Part 2)"
+  },
+  {
+    "id": "DEMO_179",
+    "date": "2026-10-12",
+    "slot_id": 8,
+    "expected_strength": 55,
+    "room_type": "CLASSROOM",
+    "required_facilities": [
+      "projector",
+      "smart_board"
+    ],
+    "department_id": 1,
+    "preferred_block_id": 1,
+    "preferred_floor": 2,
+    "created_at": "2026-10-08T13:46:00",
+    "requester_id": "202301270",
+    "name": "Isha Bhat",
+    "email": "202301270@college.edu",
+    "purpose": "Robotics Club Technical Hands-on"
+  },
+  {
+    "id": "DEMO_180",
+    "date": "2026-10-14",
+    "slot_id": 3,
+    "expected_strength": 30,
+    "room_type": "CLASSROOM",
+    "required_facilities": [],
+    "department_id": 5,
+    "preferred_block_id": 3,
+    "preferred_floor": 3,
+    "created_at": "2026-10-08T12:15:00",
+    "requester_id": "202305472",
+    "name": "Anjali Mehta",
+    "email": "202305472@college.edu",
+    "purpose": "Database Management Systems Lab"
+  },
+  {
+    "id": "DEMO_181",
+    "date": "2026-10-13",
+    "slot_id": 1,
+    "expected_strength": 35,
+    "room_type": "CLASSROOM",
+    "required_facilities": [
+      "projector"
+    ],
+    "department_id": 5,
+    "preferred_block_id": 3,
+    "preferred_floor": 3,
+    "created_at": "2026-10-11T18:36:00",
+    "requester_id": "202305470",
+    "name": "Manish Gupta",
+    "email": "202305470@college.edu",
+    "purpose": "Marketing Analytics Case Study"
+  },
+  {
+    "id": "DEMO_182",
+    "date": "2026-10-13",
+    "slot_id": 7,
+    "expected_strength": 120,
+    "room_type": "SEMINAR_HALL",
+    "required_facilities": [
+      "projector",
+      "sound_system",
+      "mic"
+    ],
+    "department_id": 6,
+    "preferred_block_id": 4,
+    "preferred_floor": 2,
+    "created_at": "2026-10-10T02:55:00",
+    "requester_id": "202306687",
+    "name": "Rahul Reddy",
+    "email": "202306687@college.edu",
+    "purpose": "Signals & Systems Tutorial"
+  },
+  {
+    "id": "DEMO_183",
+    "date": "2026-10-14",
+    "slot_id": 5,
+    "expected_strength": 45,
+    "room_type": "CLASSROOM",
+    "required_facilities": [
+      "projector",
+      "smart_board"
+    ],
+    "department_id": 2,
+    "preferred_block_id": 2,
+    "preferred_floor": 1,
+    "created_at": "2026-10-12T08:07:00",
+    "requester_id": "202302675",
+    "name": "Nikhil Mehta",
+    "email": "202302675@college.edu",
+    "purpose": "Machine Learning Laboratory Session"
+  },
+  {
+    "id": "DEMO_184",
+    "date": "2026-10-15",
+    "slot_id": 8,
+    "expected_strength": 75,
+    "room_type": "CLASSROOM",
+    "required_facilities": [
+      "projector"
+    ],
+    "department_id": 2,
+    "preferred_block_id": 2,
+    "preferred_floor": 2,
+    "created_at": "2026-10-08T19:59:00",
+    "requester_id": "202302973",
+    "name": "Sneha Nair",
+    "email": "202302973@college.edu",
+    "purpose": "Machine Learning Laboratory Session"
+  },
+  {
+    "id": "DEMO_185",
+    "date": "2026-10-14",
+    "slot_id": 2,
+    "expected_strength": 55,
+    "room_type": "CLASSROOM",
+    "required_facilities": [
+      "projector",
+      "ac"
+    ],
+    "department_id": 6,
+    "preferred_block_id": 4,
+    "preferred_floor": 2,
+    "created_at": "2026-10-09T11:26:00",
+    "requester_id": "202306912",
+    "name": "Pooja Verma",
+    "email": "202306912@college.edu",
+    "purpose": "Embedded Systems Practicum"
+  },
+  {
+    "id": "DEMO_186",
+    "date": "2026-10-13",
+    "slot_id": 3,
+    "expected_strength": 60,
+    "room_type": "CLASSROOM",
+    "required_facilities": [
+      "projector",
+      "smart_board"
+    ],
+    "department_id": 2,
+    "preferred_block_id": 2,
+    "preferred_floor": 2,
+    "created_at": "2026-10-10T14:21:00",
+    "requester_id": "202302726",
+    "name": "Deepa Nair",
+    "email": "202302726@college.edu",
+    "purpose": "Student Council Seminar"
+  },
+  {
+    "id": "DEMO_187",
+    "date": "2026-10-13",
+    "slot_id": 4,
+    "expected_strength": 60,
+    "room_type": "CLASSROOM",
+    "required_facilities": [
+      "projector",
+      "smart_board"
+    ],
+    "department_id": 2,
+    "preferred_block_id": 2,
+    "preferred_floor": 2,
+    "created_at": "2026-10-10T14:22:00",
+    "requester_id": "202302726",
+    "name": "Deepa Nair",
+    "email": "202302726@college.edu",
+    "purpose": "Student Council Seminar (Part 2)"
+  },
+  {
+    "id": "DEMO_188",
+    "date": "2026-10-15",
+    "slot_id": 4,
+    "expected_strength": 50,
+    "room_type": "LAB",
+    "required_facilities": [
+      "lab_equipment"
+    ],
+    "department_id": 5,
+    "preferred_block_id": 3,
+    "preferred_floor": 3,
+    "created_at": "2026-10-12T04:51:00",
+    "requester_id": "202305424",
+    "name": "Rohan Nair",
+    "email": "202305424@college.edu",
+    "purpose": "Guest Lecture on Quantum Computing"
+  },
+  {
+    "id": "DEMO_189",
+    "date": "2026-10-15",
+    "slot_id": 5,
+    "expected_strength": 50,
+    "room_type": "LAB",
+    "required_facilities": [
+      "lab_equipment"
+    ],
+    "department_id": 5,
+    "preferred_block_id": 3,
+    "preferred_floor": 3,
+    "created_at": "2026-10-12T04:52:00",
+    "requester_id": "202305424",
+    "name": "Rohan Nair",
+    "email": "202305424@college.edu",
+    "purpose": "Guest Lecture on Quantum Computing (Part 2)"
+  },
+  {
+    "id": "DEMO_190",
+    "date": "2026-10-16",
+    "slot_id": 1,
+    "expected_strength": 50,
+    "room_type": "LAB",
+    "required_facilities": [
+      "pcs",
+      "projector"
+    ],
+    "department_id": 3,
+    "preferred_block_id": 2,
+    "preferred_floor": 2,
+    "created_at": "2026-10-13T01:30:00",
+    "requester_id": "202303886",
+    "name": "Manish Verma",
+    "email": "202303886@college.edu",
+    "purpose": "Signals & Systems Tutorial"
+  },
+  {
+    "id": "DEMO_191",
+    "date": "2026-10-12",
+    "slot_id": 2,
+    "expected_strength": 45,
+    "room_type": "CLASSROOM",
+    "required_facilities": [
+      "projector",
+      "ac"
+    ],
+    "department_id": 5,
+    "preferred_block_id": 3,
+    "preferred_floor": 2,
+    "created_at": "2026-10-09T18:12:00",
+    "requester_id": "202305454",
+    "name": "Siddharth Deshmukh",
+    "email": "202305454@college.edu",
+    "purpose": "Database Management Systems Lab"
+  },
+  {
+    "id": "DEMO_192",
+    "date": "2026-10-13",
+    "slot_id": 6,
+    "expected_strength": 55,
+    "room_type": "CLASSROOM",
+    "required_facilities": [],
+    "department_id": 6,
+    "preferred_block_id": 4,
+    "preferred_floor": 2,
+    "created_at": "2026-10-11T21:15:00",
+    "requester_id": "202306706",
+    "name": "Nikhil Verma",
+    "email": "202306706@college.edu",
+    "purpose": "Web Technologies Interactive Lecture"
+  },
+  {
+    "id": "DEMO_193",
+    "date": "2026-10-13",
+    "slot_id": 7,
+    "expected_strength": 55,
+    "room_type": "CLASSROOM",
+    "required_facilities": [],
+    "department_id": 6,
+    "preferred_block_id": 4,
+    "preferred_floor": 2,
+    "created_at": "2026-10-11T21:16:00",
+    "requester_id": "202306706",
+    "name": "Nikhil Verma",
+    "email": "202306706@college.edu",
+    "purpose": "Web Technologies Interactive Lecture (Part 2)"
+  },
+  {
+    "id": "DEMO_194",
+    "date": "2026-10-16",
+    "slot_id": 4,
+    "expected_strength": 30,
+    "room_type": "LAB",
+    "required_facilities": [
+      "pcs",
+      "projector"
+    ],
+    "department_id": 3,
+    "preferred_block_id": 2,
+    "preferred_floor": 2,
+    "created_at": "2026-10-12T16:42:00",
+    "requester_id": "202303756",
+    "name": "Rohan Patel",
+    "email": "202303756@college.edu",
+    "purpose": "Departmental Faculty Colloquium"
+  },
+  {
+    "id": "DEMO_195",
+    "date": "2026-10-16",
+    "slot_id": 5,
+    "expected_strength": 55,
+    "room_type": "CLASSROOM",
+    "required_facilities": [
+      "projector",
+      "ac"
+    ],
+    "department_id": 4,
+    "preferred_block_id": 3,
+    "preferred_floor": 1,
+    "created_at": "2026-10-10T21:55:00",
+    "requester_id": "202304924",
+    "name": "Priya Deshmukh",
+    "email": "202304924@college.edu",
+    "purpose": "Departmental Faculty Colloquium"
+  },
+  {
+    "id": "DEMO_196",
+    "date": "2026-10-12",
+    "slot_id": 7,
+    "expected_strength": 70,
+    "room_type": "CLASSROOM",
+    "required_facilities": [
+      "projector",
+      "smart_board"
+    ],
+    "department_id": 6,
+    "preferred_block_id": 4,
+    "preferred_floor": 1,
+    "created_at": "2026-10-12T10:04:00",
+    "requester_id": "202306448",
+    "name": "Rahul Kulkarni",
+    "email": "202306448@college.edu",
+    "purpose": "Web Technologies Interactive Lecture"
+  },
+  {
+    "id": "DEMO_197",
+    "date": "2026-10-12",
+    "slot_id": 8,
+    "expected_strength": 70,
+    "room_type": "CLASSROOM",
+    "required_facilities": [
+      "projector",
+      "smart_board"
+    ],
+    "department_id": 6,
+    "preferred_block_id": 4,
+    "preferred_floor": 1,
+    "created_at": "2026-10-12T10:05:00",
+    "requester_id": "202306448",
+    "name": "Rahul Kulkarni",
+    "email": "202306448@college.edu",
+    "purpose": "Web Technologies Interactive Lecture (Part 2)"
+  },
+  {
+    "id": "DEMO_198",
+    "date": "2026-10-14",
+    "slot_id": 5,
+    "expected_strength": 100,
+    "room_type": "SEMINAR_HALL",
+    "required_facilities": [
+      "projector",
+      "sound_system",
+      "mic"
+    ],
+    "department_id": 6,
+    "preferred_block_id": 4,
+    "preferred_floor": 2,
+    "created_at": "2026-10-10T21:23:00",
+    "requester_id": "202306426",
+    "name": "Neha Iyer",
+    "email": "202306426@college.edu",
+    "purpose": "Fluid Dynamics Problem Solving"
+  },
+  {
+    "id": "DEMO_199",
+    "date": "2026-10-13",
+    "slot_id": 6,
+    "expected_strength": 70,
+    "room_type": "CLASSROOM",
+    "required_facilities": [
+      "projector",
+      "smart_board"
+    ],
+    "department_id": 2,
+    "preferred_block_id": 2,
+    "preferred_floor": 1,
+    "created_at": "2026-10-09T09:55:00",
+    "requester_id": "202302933",
+    "name": "Divya Verma",
+    "email": "202302933@college.edu",
+    "purpose": "Embedded Systems Practicum"
+  },
+  {
+    "id": "DEMO_200",
+    "date": "2026-10-13",
+    "slot_id": 4,
+    "expected_strength": 55,
+    "room_type": "CLASSROOM",
+    "required_facilities": [
+      "projector",
+      "smart_board"
+    ],
+    "department_id": 4,
+    "preferred_block_id": 3,
+    "preferred_floor": 2,
+    "created_at": "2026-10-09T13:22:00",
+    "requester_id": "202304502",
+    "name": "Aarav Reddy",
+    "email": "202304502@college.edu",
+    "purpose": "Database Management Systems Lab"
+  }
+]
